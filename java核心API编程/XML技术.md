@@ -10,14 +10,14 @@
 
 <!-- /MarkdownTOC-->
 
-﻿# 一、XML简介
+﻿# XML简介
 
 1、XML是可扩展标记语言
 2、与操作系统和操作平台均无关
 3、规范统一，支持异构系统
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181101180436240.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
 
-# 二、XML文档结构
+# XML文档结构
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181101180551962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
 
 ## 1、XML声明
@@ -47,15 +47,15 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181101182809133.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
 
-# 三、XML编写注意事项
+# XML编写注意事项
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181101182921224.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
 
-# 四、XML命名空间
+# XML命名空间
 命名空间是在解析XML文档时，对于重名的元素，可能出现解析冲突，他们用来标识来自特定域（标准组织、公司、行业）的名称
 除非带有前缀，否则属性属于他们的元素所在的命名空间
-# 五、验证XML文档
+# 验证XML文档
 DTD验证
-# 六、DOM解析XML
+# DOM解析XML
 ## 1、步骤
 
 <font color=Gold size=4>
@@ -263,7 +263,7 @@ item
 
 从NodeList中获得Node，要通过循环遍历
 
-# 七、dom4j
+# dom4j
 
 ## 1、方法：
 

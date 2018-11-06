@@ -1,6 +1,14 @@
-[TOC]
+<!--MarkdownTOC-->
 
-[标a签](#XML声明)
+- [XML简介](#XML简介)
+- [XML文档结构](#XML文档结构)
+- [XML编写注意事项](#XML编写注意事项)
+- [XML命名空间](#XML命名空间)
+- [验证XML文档](#验证XML文档)
+- [DOM解析XML](#DOM解析XML)
+- [dom4j](#dom4j)
+
+<!-- /MarkdownTOC-->
 
 ﻿# 一、XML简介
 

@@ -4,7 +4,7 @@
 
 ## 1、什么是数据库
 
-![1542014347589](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1542014347589.png)
+![Image](C:\Users\Administrator\Desktop\Image.png)
 
 数据库就是存放数据的仓库，专业的数据库系统具有较小的数据冗余度，较高的数据安全性，易扩展性。
 

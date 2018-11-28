@@ -112,6 +112,32 @@ _blank在新窗口打开
 - 行内元素除了img无法设置宽高
 - 款即元素前后有空行独占一行
 
+## 9、去除网页中所有的默认样式
+
+  *{padding:0;margin:0;}
+
+ a{text-decoration:none;color:#fff;}
+
+## 10、HTML5的结构元素
+
+|     header     |     footer     |      section      | aside  |      nav       |    article     |
+| :------------: | :------------: | :---------------: | :----: | :------------: | :------------: |
+| 标题头部的内容 | 脚部区域的内容 | web页面中间大区域 | 侧边栏 | 导航类辅助内容 | 独立的文章内容 |
+
+## 11、内部框架标签iframe
+
+src属性，指定容器默认显示内容
+
+name指定框架的名称
+
+hight：高 
+
+在a标签中的target可以选择iframe的name，这样会将内容放入iframe容器中显示，不再跳转到其他地方
+
+## 12、框架标签:frameset：
+
+注意: 使用了frameset必须将body删掉,否则页面会有问题
+
 # 二、列表
 
 ## 1、是块级元素
@@ -322,7 +348,8 @@ for里面加上id
 
   ​			当下面div受到上面浮动影响加一个空的div清除浮动
 
-  行高和高相等时，会居中
+
+-  设置元素的高和行高一样的就可以让文字居中
 
 # 五、CSS选择器
 
@@ -338,9 +365,12 @@ for里面加上id
 - 就近原则: 哪个离得近,就选用哪个的样式
 - 行内样式 > ID选择器 > 类选择器  > 元素选择器
 
-## 3、css其他选择器
+## 3、css高级选择器
 
-- 选择器分组: 选择器1,选择器2{ 属性的名称:属性的值}
+- 并集选择器（选择器分组）
+
+  - : 选择器1,选择器2{ 属性的名称:属性的值}
+  - 多个选择器通过逗号连接而成
 
 - 属性选择器:
 
@@ -367,6 +397,9 @@ for里面加上id
 
   a:visited {color:black}		已访问的链接
 
+- 交集选择器
+
+  由两个选择器连接构成，，选中两者的交集，两个选择器之间不能有交集，第一个必须是标签选择器，第二个必须是类选择器或者id选择器
 
 # 六、CSS的常见样式
 
@@ -468,5 +501,47 @@ css文件
 
 - 导入式式@import属于CSS2.1使用其导入的css文件，客户端显示HTML架构，再把css文件加载到网页众怒干，是属于CSS2.1特有的，对于不兼容CSS2.1的浏览器来说是无效的
 
-# 八、
+# 八、盒子模型
+
+![1543403891531](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1543403891531.png)
+
+
+
+## 1、边框border
+
+- 边框样式：border-style
+
+  - border-top-style：上边框样式 none无边框
+  - border-right-style：右边框样式 solid实线边框
+  - border-bottom-style：下边框样式 dashed虚线边框
+  - border-left-style：左边框样式 dolted点边框
+  - border-style：设置四个边框样式  double双线边框
+
+- 边框颜色：border-color
+
+- 边框粗细：border-width
+
+  - border-top-width（bottom、right、left）
+
+  - border-width
+
+    关键字：thin、medium、thick
+
+    像素值：px
+
+- 边框简写
+
+  同时设置边框的颜色、粗细和样式
+
+  border-bottom：9px #F00 dashed；
+
+  border：8px #F00  solid（常用）
+
+## 2、外边框margin
+
+margin-top（right、left、top）
+
+margin：3px  3px  3px  3px（上、右、下、左）
+
+
 

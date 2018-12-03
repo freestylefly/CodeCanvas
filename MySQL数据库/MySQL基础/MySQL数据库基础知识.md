@@ -661,7 +661,7 @@ SELECT studentno FROM result WHERE StudentResult>=80 AND subjectno=(
 SELECT subjectno FROM `subject` WHERE SubjectName='高等数学-2' ))
 ```
 
-
+当from后面跟子查询时，一定要取别名
 
 # 五、mysql函数
 

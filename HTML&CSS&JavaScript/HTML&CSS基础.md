@@ -492,21 +492,25 @@ for里面加上id
 
 font简写，可以按顺序设置如下属性：
 
-font--style
+font--style：字体风格，italic表示斜体
 
 font--variant
 
-font-weight
+font-weight：粗细
 
-font-size/line-height
+font-size/：字体大小
 
-font-family
+ine-height：行高
+
+font-family：字体类型，多种字体用逗号隔开，中文字体放在后面，字体名称为多个字符的时候用引号引起来 
+
+一起写font：分（风格）出（粗细）大（大小）类（类型）
 
 ## 2、文本样式
 
-|  color   |    text-align    |  text-indent   | text-height |               text-decoration                |
-| :------: | :--------------: | :------------: | :---------: | :------------------------------------------: |
-| 文本颜色 | 元素水平对齐方式 | 首行文本的缩进 | 文本的行高  | 文本的装饰（去除超链接默认下划线用其none值） |
+|  color   |    text-align    |             text-indent              | text-height |                       text-decoration                        |                     vertical-align                     |               text-shadow                |
+| :------: | :--------------: | :----------------------------------: | :---------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------: |
+| 文本颜色 | 元素水平对齐方式 | 首行文本的缩进1em代表向右缩进1个字符 | 文本的行高  | 文本的装饰（去除超链接默认下划线用其none值）underline、line- | 垂直对齐方式，设置文本和图片的居中对齐，在使得他的值为 | 文本阴影，三个值，阴影颜色、X位移、Y位移 |
 
 ## 3、div标签
 
@@ -522,6 +526,7 @@ font-family
 ## 5、背景属性
 
 - 背景颜色：background-color:#B70447
+
 - 背景图像(背景图会覆盖背景颜色)
   - 图像路径：background-image：url(图像路径)
   - 重复方式：background-repeat:no-reqeat
@@ -532,6 +537,10 @@ font-family
   水平方向：left	center	right
 
   垂直方向：top	ccenter	bottom
+
+- css3渐变
+
+  linear-gradinent（tobottom，颜色1，颜色2）
 
 - 背景属性简写（没有顺序要求）：
 
@@ -552,7 +561,6 @@ font-family
 - |        none        |         inline         |        block         | inline-block |
   | :----------------: | :--------------------: | :------------------: | ------------ |
   | 设置元素不会被显示 | 元素会被显示为内联元素 | 元素被显示为块级元素 | 行内块元素   |
-
 
 # 七、网页中引用css样式
 

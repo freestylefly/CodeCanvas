@@ -243,7 +243,7 @@ rowspan：跨行
 
 - text、password、radio（单选框）、CheckBox（复选框）、
 
-- 按钮（有提交功能）：bottom（普通按钮）
+- 按钮（有提交功能）：button（普通按钮）
 
 ​	   reset（重置按钮）
 
@@ -822,16 +822,26 @@ ul li:hover{box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0,0,0,0.2)
 - 偏移设置：top、left、right、bottom，单位px
 - 设置相对定位的盒子会相对于它原来的位置，通过指定偏移，到达新的位置
 - 设置了相对定位的网页元素，无论是在标准流中还是在浮动流中，都不会对他的父级元素和相邻元素有任何影响，他只是针对自身原来的位置进行偏移
+- 设置相对定位的盒子仍在标准文档流中，它对父级盒子和相邻的盒子都没有任何影响
+- n设置相对定位的盒子原来的位置会被保留下来
+- 相对定位一般情况下很少自己单独使用，都是配合绝对定位使用，为绝对定位创造定位父级而又不设置偏移量
 
 ## 3、absolute属性
 
 - 绝对定位
 - 决对定位是针对浏览器的，如果想要针对父容器定位则要将父容器设置为非static
+- n使用了绝对定位的元素以它最近的一个“已经定位”的“祖先元素为基准进行偏移
+- 如果没有已经定位的祖先元素，会以浏览器窗口为基准进行定位
+- 绝对定位的元素从标准文档流中脱离，这意味着它们对其他元素的定位不会造成影响
+- 元素位置发生偏移后，它原来的位置不会被保留下来
+- 一般情况下，绝对定位用在下拉菜单、焦点图轮播、弹出数字气泡、特别花边等场景
 
 ## 4、fixed
 
 - 固定定位
 - 会像狗皮膏药一样，尽管网页上下左右滑动，但是元素在网页中位置不变
+- 类似绝对定位，不过区别在于定位的基准不是祖先元素，而是浏览器窗口
+- 一般在网页中被用在窗口左右两边的固定广告、返回顶部图标、吸顶导航栏等
 
 ## 5、z-index属性
 
@@ -839,3 +849,249 @@ ul li:hover{box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0,0,0,0.2)
 - z-index属性值：整数，默认值是0
 - 设置了position属性时，z-index属性可以设置各个元素之间的重叠高低关系
 - zi-index值大的层位于值小的层的上方
+
+## 6、网页元素透明度
+
+|       opacity:x        |    filter:alpha(opacity=x)    |
+| :--------------------: | :---------------------------: |
+| x值为0~1，值越小越透明 |   x值为0~100，值越小越透明    |
+|      opacity:0.4;      | filter:alpha(opacity=40);     |
+
+# 十、css3动画
+
+## 1、transform变形
+
+CSS3变形是一些效果的集合
+
+如平移、旋转、缩放、倾斜效果
+
+transform:[transform-function] *;
+
+设置变形函数，可以是一个，也可以是多个，中间以空格分开
+
+变形函数
+
+translate()：平移函数，基于X、Y坐标重新定位元素的位置
+
+scale()：缩放函数，可以使任意元素对象尺寸发生变化
+
+rotate()：旋转函数，取值是一个度数值
+
+skew()：倾斜函数，取值是一个度数值
+
+案例：制作多彩照片墙：
+
+```html
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        img{
+            padding: 10px;
+            border: 1px solid lightgray;
+            background-color: white;
+            position: absolute;
+            width: 45%;
+        }
+        img:nth-child(1){
+            top:150px;
+            left: 50px;
+            transform: rotate(-15deg);
+        }
+        img:nth-child(2){
+            top:130px;
+            left: 200px;
+            transform: rotate(30deg);
+        }
+        img:nth-child(3){
+            top:200px;
+            left: 500px;
+            transform: rotate(-20deg);
+        }
+        img:hover{
+            transform: rotate(0deg) scale(1.3);
+            z-index: 1;
+            box-shadow: 0 0 5px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src="image/1.jpg" title="1"/>
+    <img src="image/2.jpg" title="2"/>
+    <img src="image/3.jpg" title="3"/>
+</div>
+</body>
+</html>
+```
+
+
+
+## 2、transition
+
+- 实现步骤：
+  - 设置开始状态，可不写
+  - 设置结束状态
+  - 添加transition属性
+
+- transition呈现的是一种过渡，是一种动画转换的过程，如渐现、渐弱、动画快慢等
+
+- CSS3 transition的过渡功能更像是一种“黄油”，通过一些CSS的简单动作触发样式平滑过渡
+
+- 语法：
+
+  transition:[transition-property  transition-duration  transition-timing-function   transition-delay ]
+
+  分别代表含义：过渡或动态模拟的CSS属性、完成过渡所需要的时间、指定过渡函数、过渡开始出现的延迟时间
+
+- 过渡属性（ transition-property ）
+
+  定义转换动画的CSS属性名称
+
+  IDENT：指定的CSS属性（width、height、background-color属性等）
+
+  all：指定所有元素支持transition-property属性的样式，一般为了方便都会使用all
+
+- n过渡所需的时间（ transition-duration ）
+
+  u定义转换动画的时间长度，即从设置旧属性到换新属性所花费的时间，单位为秒（s）
+
+- n过渡动画函数（ transition-timing-function ）
+
+  u指定浏览器的过渡速度，以及过渡期间的操作进展情况，通过给过渡添加一个函数来指定动画的快慢方式
+
+  Øease：速度由快到慢（默认值）
+
+  Ølinear：速度恒速（匀速运动）
+
+  Øease-in：速度越来越快（渐显效果）
+
+  Øease-out：速度越来越慢（渐隐效果）
+
+  Øease-in-out：速度先加速再减速（渐显渐隐效果）
+
+- 过渡延迟时间（ transition-delay ）
+
+  指定一个动画开始执行的时间，当改变元素属性值后多长时间去执行过渡效果
+
+  Ø正值：元素过渡效果不会立即触发，当过了设置的时间值后才会被触发
+
+  Ø负值：元素过渡效果会从该时间点开始显示，之前的动作被截断
+
+  Ø0：默认值，元素过渡效果立即执行
+
+- 过渡的触发机制
+
+  n伪类触发
+
+  u：hover
+
+  u：active
+
+  u：focus
+
+  u：checked
+
+  u
+
+  n媒体查询：通过@media属性判断设备的尺寸，方向等
+
+  nJavaScript触发：用JavaScript脚本触发
+
+演示案例：旋转按钮：
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul{
+            overflow: hidden;
+            border: 1px solid red;
+        }
+        li{
+            list-style: none;
+            float: left;
+            margin-left: 10px;
+            height: 100px;
+            line-height: 100px;
+            /*1.设置开始的状态*/
+            /*3.添加transition*/
+            transition: all 3s ease-in-out -1s ;
+        }
+
+        li:hover{
+            /*2.设置结束的状态*/
+            transform: rotate(1080deg) scale(1.3);
+        }
+        li img{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><img src="images/delicious.png"/></li>
+    <li><img src="images/facebook.png"/></li>
+    <li><img src="images/rss.png"/></li>
+    <li><img src="images/twitter.png"/></li>
+    <li><img src="images/yahoo.png"/></li>
+</ul>
+</body>
+</html>
+```
+
+## 3、animation动画
+
+animation实现动画主要由两个部分组成
+
+Ø通过类似Flash动画的关键帧来声明一个动画
+
+Ø在animation属性中调用关键帧声明的动画实现一个更为复杂的动画效果
+
+- 语法：
+
+  animation:animation-name  animation–duration  animation-timing-function
+
+     animation-delay  animation-iteration-count  animation-direction  
+
+  animation-play-state  animation-fill-mode;
+
+  ​    ;mso-ascL
+
+![1544062206386](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1544062206386.png)
+
+- n动画的播放次数（animation-iteration-count）
+
+  u值通常为整数，默认值为1
+
+  u特殊值infinite，表示动画无限次播放
+
+  n动画的播放方向（animation-direction）
+
+  unormal，动画每次都是循环向前播放
+
+  ualternate，动画播放为偶数次则向前播放
+
+  n动画的播放状态（animation-play-state）
+
+  urunning将暂停的动画重新播放
+
+  upaused将正在播放的元素动画停下来
+
+- n动画发生的操作（animation-fill-mode）
+
+  uforwards表示动画在结束后继续应用最后关键帧的位置
+
+  ubackwards表示会在向元素应用动画样式时迅速应用动画的初始帧
+
+  uboth表示元素动画同时具有forwards和backwards的效果

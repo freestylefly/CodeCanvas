@@ -382,6 +382,8 @@ for里面加上id
 
 ​	写法比上面稍微复杂一点，但是没有副作用，推荐使用
 
+设置浮动一定记得扩展盒子高度
+
 # 五、CSS选择器
 
 ## 1、css选择器
@@ -809,6 +811,14 @@ ul li:hover{box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0,0,0,0.2)
 ```
 
 # 九、定位position
+
+定位常用用法：
+
+- 在需要定位元素加position：absolute
+
+  ​				top：0px。。。
+
+- 在直接父级加一个无改变位置的position：relative
 
 ## 1、position属性
 

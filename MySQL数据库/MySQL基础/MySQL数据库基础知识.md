@@ -1070,3 +1070,21 @@ SELECT * FROM stable;
 # 十、特别注意
 
 **数据库的脚本sql文件必须保存**
+
+# 十一、Readme
+
+1、GitHub
+所有文章均以同步我的GitHub仓库，欢迎pull requests ，并期待你的star（即点赞）
+https://github.com/freestylefly/javaStudy
+2、微信公众号：苍何之旅
+微信搜索：苍何之旅，或者扫码即可关注
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181210111159299.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
+
+3、CSDN博客地址：
+
+https://blog.csdn.net/qq_43270074
+
+
+
+
+

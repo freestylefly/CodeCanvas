@@ -74,8 +74,8 @@
 - document.write()  向页面输出
 - console.log() 向控制台输出
 - innerHTML:  向页面输出
-
 - 获取页面元素: document.getElementById("id的名称");
+- window.location="页面地址"，让窗口的地址跳到指定页面去
 
 ## 5、JS声明变量:
 

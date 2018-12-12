@@ -51,22 +51,84 @@
 
 - 基本类型
   - string
+
+    split:：分割
+
+    join：拼接字符串
+
   - number
+
   - boolean 
+
   - undefine：未定义
+
   - null
+
+    注意：undefine==null定义为是相等的
+
 - 引用类型
+
   - 对象, 内置对象
+
+    常用内置对象有：
+
+    Array、String、Math、Date
+
+    Date内置对象：
+
+    按照：2018年11月12日22：3：59：格式显示，注意获得年使用getFullYear（）方法 
+
+    ```javascript
+     var date=new Date();
+            var year=date.getFullYear();
+            var month=date.getMonth();
+            var day = date.getDate();
+            var hour=date.getHours();
+            var minute=date.getMinutes();
+            var second=date.getSeconds();
+            var ele=document.getElementById("datetime");
+            ele.innerHTML=year+"年"+month+"月"+day+"日"+hour+"："+minute+"："+second+"：";
+    ```
+
 - typeof操作符来检测变量的数据类型
+
+- 创建数组
+
+  var arr=["a","b","c"]
+
+  var arr = new Array("a","b","c")
+
+  数组sort方法：是排序
+
+  push方法是向后添加元素，返回新数组的长度，直接将原数组打印即可
+
 - 类型转换
+
   - js内部自动转换 
+  - 通过函数转换：parseInt（）转换为整数
+  - parseFloat（）转换为浮点数
 
 ## 3、JS的运算符和语句
 
 - 运算符和java 一样
   - "===" 全等号: 值和类型都必须相等
   - == 值相等就可以了
+
 - 语句和java 一样
+
+  ```
+  ==和===的区别
+  ==不会严格区分数据类型
+  ===会严格区分数据类型
+  ```
+
+  ```
+  “1”==true  正确
+  "0"==false  正确
+  “true”=true	错误
+  
+  ```
+
 
 ## 4、JS的输出
 
@@ -76,6 +138,7 @@
 - innerHTML:  向页面输出
 - 获取页面元素: document.getElementById("id的名称");
 - window.location="页面地址"，让窗口的地址跳到指定页面去
+- prompt（）可以是一个参数或者两个参数，弹出窗口，让用户输入值，有返回值，需要对返回值进行强制类型转换的时候需要用到部分常用的系统函数
 
 ## 5、JS声明变量:
 
@@ -90,6 +153,13 @@ var 函数的名称 = function(){
 function 函数的名称(){
 
 ​	}
+
+js常用的系统函数
+
+- parseInt（）转换为整数
+- parseFloat（）转换为浮点数
+- isNaN（）：贩毒案非数字
+- eval（），计算表达式的值
 
 ## 7、创建对象
 
@@ -246,6 +316,142 @@ function 函数的名称(){
        User.prototype.showInfo=function(){
               document.write(this.name+"-"+this.psd)
           }
+  ```
+
+
+
+## 8、在网页中引入JavaScript的方式
+
+1、内部：用script标签，可以放在任意位置，习惯可放置在html的最后
+
+2、行内：直接放在HTML标签中
+
+3、外部：调用外部用script标签，属性src=“”，type=text/JavaScript
+
+## 9、JS程序调试
+
+1、用浏览器F12调试，F10跳过函数,F11进去方法里，watch可以监控变量
+
+2、alert进行标记是比较实用的调试方式，在需要标记的地方做标记，如果能执行到标记的位置，那么就会弹出窗口
+
+## 10、事件
+
+onload：页面加载事件
+
+onclick：点击事件
+
+onkeydown：键盘按下事件
+
+## 11、BOM——浏览器对象
+
+BOM是浏览器对象模型，可以移动窗口，改变状态栏中的文本，执行其他与页面内容不直接相关的操作。
+
+![1544623656486](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1544623656486.png)
+
+BOM可实现功能：
+
+u弹出新的浏览器窗口
+
+u移动、关闭浏览器窗口以及调整窗口的大小
+
+u页面的前进、后退
+
+#### A、Window对象
+
+- 属性
+
+  history：有关客户访问过的URL的信息
+
+  location：有关当前URL的信息，
+
+  ```javascript
+  window.location="http://www.baidu.com";
+  ```
+
+- 方法
+
+  1. prompt()
+
+     显示可提示用户输入的对话框，可有一个参数或者两个参数，两个参数时，第二个参数代表的是默认输入信息，有返回值，点击确定返回用户输入的值，点击取消返回null
+
+  2. alert()
+
+     为只含有一个确定按钮的警告框仅有一个参数，无返回值
+
+  3. confirm()
+
+     显示一段消息以及含有确定和取消按钮的对话框，返回值为布尔类型，常用于if -else语句
+
+  4. close()
+
+     关闭浏览器窗口
+
+  5. open()
+
+     在页面弹出一个新的浏览器敞口
+
+     ```javascript
+     window.open("http://www.baidu.com","_blank","width=100px,height=100px")
+     ```
+
+  6. setTimout()
+
+     定时函数：仅会计时一次
+
+  7. setInterval()
+
+     定时函数：多次计时
+
+     ```javascript
+     setInterval(“adadas()”，1000)
+     ```
+
+#### B、History对象
+
+- 方法
+
+  back()：后退
+
+  forward()：前进
+
+  go(1)：同forward，负数代表后退
+
+#### C、Location对象
+
+- 属性：href：设置或者返回完整的URL
+
+- 方法
+
+  reload：重新加载
+
+  replace：用新的文档替换当前文档，不能振兴后退操作
+
+  align：用新的文档替换当前文档，能振兴后退操作
+
+#### D、Document对象
+
+- 属性
+
+  referrer：返回载入当前文档的URL（谁把我加载进来的）
+
+  URL：返回当前文档的URL
+
+- 方法
+
+  getElementById：通过id获取某一对象
+
+  getElementsByName：通过name获取某一对象
+
+  getElementsByTagName：通过标签名获取某一对象
+
+  write：向文档写文本
+
+  ```
+  获得对象后需要对属性进行一系列操作，如可setAtrrbute等设置属性值，扩展：tofixed（2）代表保留两位小数，常用的对象属性有：
+  1、value：值
+  2、innerHTML：改变对象的所有显示属性，会解析HTML标签
+  3、innerTEXT：改变对象的所有显示属性，不会解析HTML标签
+  4、chected：复选框的属性值，让其为true，代表已选
   ```
 
 
@@ -901,4 +1107,45 @@ setAttributeNode()  修改属性节点
 ```
 
 
+
+# 十三、使用JS实现页面上动态实时时钟
+
+代码展示：两个定时函数的调用
+
+```javascript
+<body onload="shoowTime()">
+<div id="datetime" ></div>
+<input type="button" id="first" value="点击" onclick="closeTime()"/>
+</body>
+</html>
+<script>
+    //全局标量，标记变量，点击停止或者开始
+    var flag=true;
+    //计时函数
+    var time=setInterval("shoowTime()",1000);
+    //显示时间
+    function shoowTime(){
+        var date=new Date();
+        var year=date.getFullYear();
+        var month=date.getMonth();
+        var day = date.getDate();
+        var hour=date.getHours();
+        var minute=date.getMinutes();
+        var second=date.getSeconds();
+        var ele=document.getElementById("datetime");
+        ele.innerHTML=year+"年"+month+"月"+day+"日"+hour+"："+minute+"："+second+"：";
+    }
+    //点击开始或者停止计时
+
+    function closeTime(){
+        if(flag==true){
+            clearInterval(time);
+            flag=false;
+        }else{
+            setInterval("shoowTime()",1000);
+            flag=true;
+        }
+    }
+</script>
+```
 

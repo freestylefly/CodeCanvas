@@ -163,7 +163,16 @@ js常用的系统函数
 
 ## 7、创建对象
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181218095031912.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
+
 - Object
+  ```javascript
+  var 对象名 = new Object（）
+  属性：对象名.属性名=“”；
+  方法：对象名.showName=function(){}
+  调用方法：对象名.showName();
+  ```
+
   - ECMAScript提供的一种原生引用类型
   - 可以通过Object引用类型的实例创建一个对象
   - 可以为对象定义属性和方法
@@ -289,19 +298,36 @@ js常用的系统函数
 
   - 这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法
 
+  - instanceof判断对象的原类型
+
   - 代码实现
 
-    ```html
-       User.prototype.showInfo=function(){
-                document.write(this.name+"-"+this.psd)
-            }
+    ```javascript
+       //定义无参构造函数
+        function Flower(){
+    
+        }
+        //原型属性和方法
+        Flower.prototype.name="长春花";
+        Flower.prototype.genera="夹竹桃科 长春花属";
+        Flower.prototype.showName=function(){
+            alert(this.name);
+        }
+        //构建实例对象
+        var f1 = new Flower();
+        var f2 = new Flower();
+        //实例对象修改属性值
+        f2.name="哈哈哈";
+        //实例对象调用原型方法
+        f1.showName();
+        f2.showName();
     
     ```
 
 - 用混合方式构造对象
 
   构造函数+prototype
-  构造函数：属相
+  构造函数：属性
 
   原型prototype：方法
 
@@ -318,9 +344,73 @@ js常用的系统函数
           }
   ```
 
+## 8、继承
+
+1、	原型链
+
+一个原型对象是另一个原型对象的实例（dog.protptype=new Animal();
+
+相关的原型对象层层递进，就构成了实例与原型的链条，就是原型链
+
+2、对象继承
+
+借用构造函数
+
+- apply([thisOjb[,argArray]])
+
+  应用某一对象的一个方法，用另一个对象替换当前对象
+
+- call([thisObj[,arg1[,arg2[,  [,argN]]]]])
+
+  n调用一个对象的一个方法，以另一个对象替换当前对象
+
+  ​    Animal.call(this,cloth)
+
+组合继承（做伪经典继承）
+
+```javascript
+<script>
+    //构造函数Person
+    function Person(name,chinese,math){
+        this.name=name;
+        this.chinese=chinese;
+        this.math=math;
+    }
+    //构造函数Person方法
+    Person.prototype.showName=function(){
+        return this.name;
+    }
+    Person.prototype.showChinese=function(){
+        return this.chinese;
+    }
+    Person.prototype.showMath=function(){
+        return this.math;
+    }
+    //构造函数Student
+    function Student(name,chinese,math,age){
+        Person.call(this,name,chinese,math);
+        this.age=age;
+    }
+    //实现继承
+    Student.prototype=new Person();
+    //构造函数Student方法
+    Student.prototype.showAge=function(){
+        return this.age;
+    }
+
+    //创建Student实例
+
+    var student=new Student("张三",90,80,16);
+    document.write("姓名："+student.showName()+"<br/>")
+    document.write("语文："+student.showChinese()+"<br/>")
+    document.write("数学："+student.showMath()+"<br/>")
+    document.write("年龄："+student.showAge()+"<br/>")
+</script>
+```
 
 
-## 8、在网页中引入JavaScript的方式
+
+## 9、在网页中引入JavaScript的方式
 
 1、内部：用script标签，可以放在任意位置，习惯可放置在html的最后
 
@@ -328,13 +418,13 @@ js常用的系统函数
 
 3、外部：调用外部用script标签，属性src=“”，type=text/JavaScript
 
-## 9、JS程序调试
+## 10、JS程序调试
 
 1、用浏览器F12调试，F10跳过函数,F11进去方法里，watch可以监控变量
 
 2、alert进行标记是比较实用的调试方式，在需要标记的地方做标记，如果能执行到标记的位置，那么就会弹出窗口
 
-## 10、事件
+## 11、事件
 
 onload：页面加载事件
 
@@ -342,7 +432,7 @@ onclick：点击事件
 
 onkeydown：键盘按下事件
 
-## 11、BOM——浏览器对象
+## 12、BOM——浏览器对象
 
 BOM是浏览器对象模型，可以移动窗口，改变状态栏中的文本，执行其他与页面内容不直接相关的操作。
 
@@ -454,6 +544,157 @@ u页面的前进、后退
   4、chected：复选框的属性值，让其为true，代表已选
   ```
 
+## 13、DOM—文档对象模型
+
+![JavaScript操作DOM对象](E:\Java\GitHub\javaStudy\JavaScript\JavaScript操作DOM对象.jpg)
+
+
+
+DOM分类：
+
+1、DOM core：DOM核心，包含getElement方法等
+
+2、HTML DOM：用来操作节点
+
+3、CSS DOM：用来操作样式
+
+节点信息：
+
+nodeName：节点名字
+
+nodeValue：节点值
+
+nodeType：节点类型
+
+节点和节点的关系：
+
+1. 父节点：parentNode（parentElementNode父元素节点）
+2. 首个节点：firstChild
+3. 最后一个节点：lastChild
+4. 下一个节点：nextsibling
+5. 上一个节点：previousSibling
+6. 子节点集合childNode
+
+操作节点：
+
+操作节点属性：getAttribute("属性名")           setAttribute("属性名","属性值")
+
+创建和插入节点节点：
+
+```
+createElement( tagName)
+A.appendChild( B)、insertBefore( A,B )
+cloneNode(deep)
+```
+
+清楚和替换节点：
+
+```
+removeChild(N)、replaceChild(newN,oldN)
+```
+
+操作节点样式：style属性（样式少的时候用，可读写   className属性（在css样式中已经写好，通过className操作）
+
+------
+
+页面事件：
+
+1、onload页面加载事件
+
+2、onscroll用于博做页面垂直和水平的滚动
+
+制作带关闭按钮的广告
+
+```javascript
+//关闭按钮关闭广告
+function adv_close(){
+    var closeEle=document.getElementById("close").firstElementChild;
+    var floatEle=document.getElementById("float").firstElementChild;
+    closeEle.style.display="none";
+    floatEle.style.display="none";
+}
+//当滚动条向下或向右移动时，图片和关闭按钮随滚动条移动，相对于浏览器的位置固定
+//获取原始位置：top left
+var adver=document.getElementById("float");
+var initLeft=0;
+var initTop=0;
+/**
+ * 1.获取小广告初始位置的top和left
+ */
+function initLocation(){
+    if(adver.currentStyle){
+        initLeft=parseInt(adver.style.left);
+        initTop=parseInt(adver.style.top);
+    }else{
+        initLeft=parseInt(document.defaultView.getComputedStyle(adver,null).left);
+        initTop=parseInt(document.defaultView.getComputedStyle(adver,null).top);
+    }
+}
+function scrollCount(){
+    //2.获取鼠标滚动的距离
+    var leftChange= document.documentElement.scrollLeft||document.body.scrollLeft;
+    var topChange= document.documentElement.scrollTop||document.body.scrollTop;
+    //3.重新为属性赋值
+    adver.style.top=topChange+initTop+"px";
+    adver.style.left=leftChange+initLeft+"px";
+    //console.log(topChange+initTop+"px");
+}
+window.onload=initLocation;//onload加载事件，调用方法
+window.onscroll=scrollCount;//鼠标滚动事件，调用方法
+```
+
+制作论坛发帖：
+
+```JavaScript
+
+//获得发帖的div对象
+var postEle=document.getElementsByClassName("post")[0];
+//点击发帖
+function pushsth(){
+    //修改CSS属性，使其显示出来
+    postEle.style.display="block";
+}
+//发布
+function publish(){
+    //获取标题
+    var title=document.getElementsByClassName("title")[0].value;
+    //获取板块
+    var section=document.getElementsByTagName("select")[0].value;
+    //获取时间
+    var date = new Date();
+    var year=date.getFullYear();
+    var month=date.getMonth();
+    var day=date.getDate();
+    var dateTime=year+"年"+month+"月"+day+"日";
+    //将li中内容添加进入ul上
+    var ulEle=document.getElementsByTagName("ul")[0];
+    ulEle.innerHTML=" <li>"+
+        "<div><img src='images/tou01.jpg' /></div>"+
+        "<h1>"+title+"</h1>"+
+       " <p>"+
+       " <span>板块："+section+"</span> <span>发布时间："+dateTime+"</span>"+
+   " </p>"
+   " </li>"
+    //隐藏发帖板块
+    postEle.style.display="none";
+}
+```
+
+注意：要在成对的双引号之间加一个参数，可以用“++“，只需要把参数放在++之间即可！
+
+## 14、内置对象
+
+String（字符串）对象
+
+Date（日期）对象
+
+Array（数组）对象
+
+Boolean（逻辑）对象
+
+Math（算数）对象
+
+RegExp对象
 
 # 三、JS的开发步骤
 

@@ -143,6 +143,25 @@ show()：显示
 
 hide()：隐藏
 
+index()方法，用于获取对应元素在父级中的下标
+
+```javascript
+$(".nav ul li").click(function(){
+        var index = $(".nav ul li").index(this);
+        $(".nav ul li:eq(" + index + ") dt").toggle(
+            function(){
+                $(".nav ul li:eq(" + index + ") dd").slideDown();
+            },
+            function () {
+                $(".nav ul li:eq(" + index + ") dd").slideUp();
+            }
+        )
+
+    });
+```
+
+
+
 # 三、JQuery中的选择器
 
 ![JQ选择器](https://img-blog.csdnimg.cn/20181219103748717.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
@@ -356,15 +375,136 @@ $.each(arr,function(i,n){
 });
 ```
 
-# 五、JQ中的动画效果
+# 五、JQ中的事件和动画效果
 
-show()
-hide()
-slideUp
-slideDown
-fadeIn
-fadeOut
-animate : 自定义动画
+## 1、事件
+
+![JQ中的事件](https://img-blog.csdnimg.cn/20181220100957575.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMjcwMDc0,size_16,color_FFFFFF,t_70)
+
+1、基础事件
+
+- 鼠标事件
+
+  click（）：鼠标点击
+
+  mouseover/mouseout：鼠标悬浮/离开（被选元素+子元素）
+
+  mouseenter/mouseleave:鼠标悬浮/离开(被选元素)
+
+- 键盘事件
+
+  keydown /keyup：键盘按下和松开
+
+  keypress：键盘按下产生可打印的字符时
+
+  按下回车键触发的特效
+
+  ```javascript
+  $(document).keydown(function(even){
+      if(even.keyCode==13){
+          alert("确认要提交吗？)
+      }
+  })
+  ```
+
+- window事件
+
+  resize（）：浏览器事件，调整窗口大小时，完成页面特效
+
+- 表单事件
+
+2、复合事件
+
+- 鼠标光标悬停
+
+  hover()方法相当于mouseover与mouseout事件的组合
+
+  hover(fn1,fn2)
+
+- 鼠标连续点击
+
+  toggle()方法用于模拟鼠标连续click事件
+
+  ```javascript
+  1、toggle():
+  与show( )和hide( )方法作用一样，点击显示，再点击隐藏
+  2、toggle(fn1,fn2,...),仅支持1.8.0以上版本
+  点击几次就有几个function
+   $("input:first").toggle(
+                      function(){
+                          $("div").css("background","red");
+                      },
+                      function(){
+                          $("div").css("background","blue");
+                      },
+                      function(){
+                          $("div").css("background","green");
+                      }
+              );
+  3、toggleClass（）可以对样式进行切换，前提是先要在css样式中写上相应的类样式，如：.red
+   $("input:last").click(function(){
+                  $("p").toggleClass("red");
+              });
+  
+  ```
+
+
+3、绑定和移出事件
+
+- 绑定：on/bind
+
+(on和bind都可以用作事件绑定，但是on绑定事件对于新增元素也有效)
+
+```javascript
+1、绑定单个事件：
+on("click",function(){})
+2、绑定多个事件
+on(
+{
+    "click":a=function(){},
+    "click":b=funtioon(){}
+}
+)
+```
+
+- 移出绑定off/unbind
+
+```javascript
+移出绑定前需要对绑定的事件命名
+1、移出所有绑定的事件
+    off()
+2、移出指定名字的事件
+off("click",a)
+```
+
+## 2、动画效果
+
+- show()显示
+
+- hide()隐藏
+
+- slideUp使元素逐步缩短直至隐藏
+
+- slideDown可以使元素逐步延伸显示
+
+- fadeIn
+
+- fadeOut
+
+- animate : 自定义动画：
+
+  $(selector).
+  animate({params},speed,callback)
+
+  params：必须，定义形成动画的CSS属性
+
+  stop：
+
+  无参：停止当前
+
+  一个参数：停止所有
+
+  两个参数：停止所有，并回到动画最终的位置
 
 # 六、使用JQuery完成页面定时弹出广告
 

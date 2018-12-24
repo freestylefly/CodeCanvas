@@ -354,7 +354,7 @@ $(".nav ul li").click(function(){
 
 # 四、JQ中常用函数及遍历数组
 
-```html
+```javascript
 $(function)  : 文档加载完成的事件
 css()  : 	修改css样式
 prop() :    修改属性/ 获取属性
@@ -366,6 +366,17 @@ prepend :   在自己最前面添加子节点
 after	:   在自己后面添加一个兄弟
 empty	:   清空所有子节点
 
+遍历子元素
+children()方法可以用来获取元素的所有子元素
+遍历同辈元素
+next()用于获取紧邻匹配元素之后的元素
+prev()用于获取紧邻匹配元素之前的元素
+slibings()用于获取位于匹配元素前面和后面的所有同辈元素
+遍历前辈元素
+parent()获取元素的父级元素
+parents()：元素元素的祖先元素
+
+each( ) ：规定为每个匹配元素规定运行的函数
 $(cities).each(function(i,n){
   	
 })
@@ -373,6 +384,8 @@ $(cities).each(function(i,n){
 $.each(arr,function(i,n){
   
 });
+end()将当前对象向上一级返回,：结束当前链条中的最近的筛选操作，并将匹配元素集还原为之前的状态，如
+$("ul li").first().css("color","red").end().last()选择的是ul下面的最后一个li
 ```
 
 # 五、JQ中的事件和动画效果
@@ -412,6 +425,12 @@ $.each(arr,function(i,n){
   resize（）：浏览器事件，调整窗口大小时，完成页面特效
 
 - 表单事件
+
+  常用于搜索框，未点击搜索框时，有提示信息，点击搜索框时候提示信息就消失了
+
+  鼠标聚焦：focus
+
+  失去焦点：blur
 
 2、复合事件
 
@@ -505,6 +524,135 @@ off("click",a)
   一个参数：停止所有
 
   两个参数：停止所有，并回到动画最终的位置
+
+# 六、jQuery中的DOM操作
+
+## 1、css操作
+
+- 添加样式
+
+  1. css()，单个样式css("name","value")，多个样式：css("{name1":"value1","name2","value2"})
+
+  2. addClass：添加类样式，多个用空格隔开
+
+  3. height：设置或返回匹配元素的高度
+
+  4. width：设置或返回匹配元素的宽度
+
+  5. offset：返回以像素为单位的top和left坐标。仅对可见元素有效
+
+  6. offsetParent：返回最近的已定位祖先元素。定位元素指的是元素的CSS
+     position值被设置为relative、absolute或fixed的元素
+
+  7. position：返回第一个匹配元素相对于父元素的位置
+
+  8. scrollLeft：参数可选。设置或返回匹配元素相对滚动条左侧的偏移
+
+  9. scrollTop：参数可选。设置或返回匹配元素相对滚动条顶
+
+     ```javascript
+     制作页面小广告随滚动条滚动
+     $(document).ready(function(){
+         //获取初识位置
+         var topEle=parseInt($("#adver").css("top"));
+         var leftEle=parseInt($("#adver").css("left"));
+     
+         //滚轮滚动事件
+         $(window).scroll(function () {
+             //获取该变量
+             var changeTop=$(this).scrollTop();
+             var changeLeft=$(this).scrollLeft();
+     
+             //得到改变后的位置
+             var endTop=changeTop+topEle+"px";
+             var endLeft=changeLeft+leftEle+"px";
+     
+             $("#adver").css({"top":endTop,"left":endLeft});
+         })
+     })
+     ```
+
+- 移除样式
+
+  removeClass
+
+- 切换样式
+
+  toggleClass（需要和hover一起使用）
+
+- 判断是否包含某样式
+
+  haseClass
+
+## 2、HTML代码操作
+
+```javascript
+html()：获取元素的html代码
+
+html("<div class='content'>…</div>");：设置元素中的HTML代码
+```
+
+## 3、标签内容操作
+
+```javascript
+text();：获取元素中的文本内容
+text("<div class='content'>…</div>");
+text和html 的区别：text不会去解析HTML标签，只会解析文本
+```
+
+
+
+## 4、属性和属性值操作
+
+```javascript
+val()无参代表获取value值，有值即表示设置value的值
+att()获取属性
+attr("class","blua")代表设置class属性
+RemoveAttr()：移出属性
+```
+
+## 5、节点操作
+
+- 创建节点
+
+  ```
+  $()工厂函数可直接创建节点
+  ```
+
+- 插入节点
+
+  ```javascript
+  1、有父子元素的插入
+  将儿子F加到父亲E的最后（父E,子F）
+  E.append(F)：
+  F.append(E)：
+  将儿子F加到父亲E的最前面（父E,子F）
+  E.prepend(F)：
+  F.prependTo(E)
+  2、插入同辈节点
+  A.after(B)：将B插到A的后面(beforeD代表前)
+  A.insertAfter(B)：将A插到B的后面(insertbeforeD代表前)
+  ```
+
+- 删除节点
+
+  remove：删除整个节点，包括结构
+
+  empty：清空节点里面的内容，但结构保留
+
+  detach：删除整个节点，但是保留事件
+
+- 替换节点
+
+  replaceWith(同append)
+
+  replaceAll(同appendTo)
+
+- 复制节点
+
+  clone()：纯粹复制节点
+
+  clone(true)：节点里面绑定的事件也会被复制
 
 # 六、使用JQuery完成页面定时弹出广告
 

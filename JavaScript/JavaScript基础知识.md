@@ -105,7 +105,13 @@
 - 类型转换
 
   - js内部自动转换 
+
   - 通过函数转换：parseInt（）转换为整数
+
+    parseInt("aaa123")=NAN
+
+    parseInt("123aaa")=123
+
   - parseFloat（）转换为浮点数
 
 ## 3、JS的运算符和语句

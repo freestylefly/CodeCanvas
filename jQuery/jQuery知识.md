@@ -318,7 +318,7 @@ $(".nav ul li").click(function(){
 		</script>
 ```
 
-## 4、JQ中的属性选择器
+## 5、JQ中的属性选择器
 
 ```html
 		$(function(){
@@ -342,6 +342,10 @@ $(".nav ul li").click(function(){
 :selected
 
 :checked
+
+JQ中用的是submit（）方法提交表单
+
+JS用的是onsubmit=“return  login
 
 ```html
 <script>
@@ -381,7 +385,7 @@ $(cities).each(function(i,n){
   	
 })
 
-$.each(arr,function(i,n){
+$.each(arr,function(index,element){
   
 });
 end()将当前对象向上一级返回,：结束当前链条中的最近的筛选操作，并将匹配元素集还原为之前的状态，如
@@ -977,3 +981,264 @@ RemoveAttr()：移出属性
 </html>
 ```
 
+# 十一、JQ完成表单表单验证
+
+```javascript
+$(document).ready(function () {
+    //失焦事件
+    $("#fname").blur(checkFname);
+    $("#lname").blur(checklname);
+    $("#sname").blur(checkSname);
+    $("#pass").blur(checkPassword);
+    $("#email").blur(checkEmail);
+
+
+    //聚焦
+
+
+    //表单提交
+    $("#formRegister").submit(function(){
+        if(!checkFname()){
+            return false;
+        }else if(!checklname()){
+            return false;
+        }else if(!checkSname()){
+            return false;
+        }else if(!checkPassword()){
+            return false;
+        }else if(!checkEmail()){
+            return false;
+        }
+        return true;
+    })
+
+
+
+    //验证名字
+    function checkFname(){
+        if($("#fname").val()==""){
+            $("#spanfname").html("名字不能为空").css("color","red");
+            return false;
+        }else{
+            $("#spanfname").html("");
+        }
+        return true;
+    };
+    //验证姓氏
+    function checklname(){
+        if($("#lname").val()==""){
+            $("#spanlname").html("姓氏不能为空").css("color","red");
+            return false;
+        }else{
+            $("#spanlname").html("");
+        }
+        return true;
+    };
+    //验证登录名
+    function checkSname(){
+        var sname=$("#sname").val();
+        var reg=/^[a-z0-9_]$/;
+        if(sname==""){
+            $("#spansname").html("登录名不能为空").css("color","red");
+            return false;
+        }else if(reg.test(sname)==false){
+            $("#spansname").html("登录名格式不正确").css("color","red");
+            return false;
+        }else{
+            $("#spansname").html("");
+        }
+
+        return true;
+    };
+
+    //验证密码
+    function checkPassword(){
+        var psd=$("#pass").val();
+        //if(psd==""){
+        //    $("#spanpass").html("密码不能为空").css("color","red");
+        //    return false;
+        //}else if(psd.length<6){
+        //    $("#spanpass").html("密码不能少于6位").css("color","red");
+        //    return false;
+        //}else{
+        //    $("#spanpass").html("");
+        //}
+        var reg=/^\w{6}$/;
+        if(psd==""){
+            $("#spanpass").html("密码不能为空").css("color","red");
+            return false;
+        }else if(reg.test(psd)==false){
+            $("#spanpass").html("密码不能少于6位").css("color","red");
+            return false;
+        }else{
+            $("#spanpass").html("");
+        }
+        return true;
+    };
+    //验证邮箱
+    function checkEmail(){
+        var email=$("#email").val();
+        //if(email==""){
+        //    $("#spanemail").html("不能为空").css("color","red");
+        //    return false;
+        //}else if(email.indexOf("@")==-1){
+        //    $("#spanemail").html("必须含有@符号").css("color","red");
+        //    return false;
+        //}else if(email.indexOf(".")==-1) {
+        //    $("#spanemail").html("必须含有.符号").css("color", "red");
+        //    return false;
+        //}else{
+        //    $("#spanemail").html("");
+        //}
+        var reg=/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+        if(reg.test(email)==false){
+            $("#spanemail").html("邮箱格式不正确").css("color","red");
+            return false;
+        }else{
+            $("#spanemail").html("");
+        }
+        return true;
+    };
+
+
+})
+```
+
+补充：使用HTML5进行表单验证
+
+```javascript
+/**
+ * JS代码
+ Created by zongjuan.wang on 2016/7/6.
+ */
+
+$(document).ready(function(){
+    $("#submit").click(function(){
+        var u=document.getElementById("uName");
+        if(u.validity.valueMissing==true){//输入为空
+            u.setCustomValidity("昵称不能为空");//自定义错误提示信息
+        }
+        else if(u.validity.patternMismatch==true){//输入内容格式与正则表达式不匹配
+            u.setCustomValidity("昵称必须是6~10位的英文和数字");
+        }
+        else{
+            u.setCustomValidity("");
+        }
+
+        var pwd=document.getElementById("pwd");
+        if(pwd.validity.valueMissing==true){
+            pwd.setCustomValidity("密码不能为空");
+        }
+        else if(pwd.validity.patternMismatch==true){
+            pwd.setCustomValidity("密码必须是6~16位的英文和数字");
+        }
+        else{
+            pwd.setCustomValidity("");
+        }
+
+        var email=document.getElementById("email");
+        if(email.validity.valueMissing==true){
+            email.setCustomValidity("邮箱不能为空");
+        }
+        else if(email.validity.typeMismatch==true){
+            email.setCustomValidity("邮箱格式不正确");
+        }
+        else{
+            email.setCustomValidity("");
+        }
+
+    })
+})
+
+
+```
+
+
+
+html代码片段
+
+```html
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>仿QQ注册</title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+	<div class="container">
+		<h2 class="reg-top"></h2>
+		<div class="reg-box">
+			<div class="reg-main">
+				<h3>注册账号</h3>
+				<form action="index.html" method="post" class="reg-form">
+					<div class="reg-input">
+						<label><i>*</i>昵称：</label>
+						<input type="text" id="uName" required placeholder="英文、数字长度为6-10个字符" pattern="[a-zA-Z0-9]{6,10}"  />
+					</div>
+					<div class="reg-input">
+						<label><i>*</i>密码：</label>
+						<input type="password" id="pwd" required  placeholder="长度为6-16个字符" pattern="[a-zA-Z0-9]{6,16}"/>
+					</div>
+					<div class="reg-input">
+						<label>手机号码：</label>
+						<input type="text" pattern="^1[34578][0-9]{9}$"/>
+						<span id="tel-tip">忘记密码时找回密码使用</span>
+					</div>
+					<div class="reg-input">
+						<label><i>*</i>邮箱：</label>
+						<input type="email" required id="email"/>
+					</div>
+					<div class="reg-input">
+						<label>年龄：</label>
+						<input type="number" min="12"/>
+					</div>
+					<div class="submit-box">
+						<input type="submit" id="submit" value="立即注册" >
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.12.4.js"></script>
+    <script src="js/reg.js"></script>
+ 
+ </body>
+</html>
+
+```
+
+
+
+# 十二、正则表达式
+
+## 1、声明
+
+```
+var reg=/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+```
+
+## 2、test方法
+
+```
+if(reg.test(email)==false){
+```
+
+## 3、手册及常用正则表达式
+
+http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
+
+## 4、String对象与正则表达式
+
+|    方法     |              描述              |
+| :---------: | :----------------------------: |
+|  match（）  | 找到一个或多个正则表达式的匹配 |
+| search（）  |   检索与正则表达式相匹配的值   |
+| replace（） | 替换与正则表达式相匹配的字符串 |
+|  split（）  |    把字符串分割成字符串数组    |
+
+g代表全局匹配，i代表忽略大小写

@@ -346,13 +346,7 @@ public class Pet {
   		}
   		return rs;
   	}
-  	
-  	
-  	
-  	
-  	
-  	
-  	
+  
   }
   
   ```

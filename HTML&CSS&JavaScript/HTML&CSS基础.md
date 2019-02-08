@@ -321,6 +321,10 @@ size为列表有几行
 
 条款试着默认值，只需要在两个textarea标签中加值即可
 
+如何设置滚动条
+
+https://www.cnblogs.com/hao-1234-1234/p/6971165.html
+
 ## 6、label标注
 
 表单标注，语法为：

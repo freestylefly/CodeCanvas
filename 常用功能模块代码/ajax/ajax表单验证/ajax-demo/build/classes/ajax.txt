@@ -1,0 +1,18 @@
+
+ajax asynchronus javascript and xml
+	 异步(不同步)
+
+效果: 在整体页面不刷新的情况下, 完成与后台数据交互, 
+		并根据后台返回的数据, 局部刷新页面
+	
+常用场合:
+	1. 表单验证: 例如验证用户名是否可用
+	2. 页面拼接显示
+	3. 前后端分离式的网站结构
+	
+使用ajax时, 如需将js的执行过程保持同步, 方式如下:
+方法1: 使用$.ajax()函数, 添加键值对设置: async:false
+方法2: 设置ajax全局属性: $.ajaxSetup({async:false});
+方法3: 在使用ajax之前, 单独设置, 并在使用之后再改回异步:
+			$.ajaxSettings.async = false;
+			$.ajaxSettings.async = true;

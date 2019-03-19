@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <!-- 配置servlet -->
+  <!-- 验证用户名 -->
+  <servlet>
+  	<servlet-name>checkUserName</servlet-name>
+  	<servlet-class>com.servlet.user.CheckUserName</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>checkUserName</servlet-name>
+  	<url-pattern>/checkUserName</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 配置工程的默认访问页面 -->
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

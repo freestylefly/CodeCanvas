@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+*{padding:0; margin:0;}
+
+.login{
+	width: 400px;
+	margin: 50px auto;
+	padding: 30px;
+}
+
+.login table tr:last-child td:last-child {
+	color: red;
+}
+
+.welcome{
+	height: 600px;
+	background-color: #d1d1d1;
+	text-align: center;
+	line-height: 150px;
+}
+.info{
+	margin: 10px;
+}
+.info legend{
+	margin-left: 20px;
+}
+
+.list table{
+	width: 100%;
+}
+.list table tr:first-child{
+	background-color: yellow;
+	font-weight: bold;
+}
+.list table tr{
+	text-align: center;
+}
+.list table tr:last-child td:first-child{
+	text-align: left;
+}
+.list table tr:last-child td:last-child{
+	text-align: right;
+}
+
+.left{
+	width: 200px;
+	background: linear-gradient(to bottom, #e6fdff, #00ffec, #e6fdff);
+	height: 600px;
+}
+
+.left ul li{
+	line-height: 30px;
+	text-indent: 30px;
+}
+
+.left ul li:hover{
+	border-radius: 15px;
+	background-color:orange;
+	color: white;
+	cursor: pointer;
+}
+
+.left ul li a:link{
+	text-decoration: none;
+}
+
+.top{
+	position: relative;
+	line-height: 50px;
+	background-color: #00ffec;
+}
+
+.top div:first-child {
+	position: relative;
+	left: 30px;
+}
+.top div:last-child {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+
+.bottom{
+	background-color: #00ffec;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+

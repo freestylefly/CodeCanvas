@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://106.13.43.205:3306/jt35</property>
+		<property name="user">root</property>
+		<property name="password">aaaaa123</property>
+	</default-config> 
+</c3p0-config> 

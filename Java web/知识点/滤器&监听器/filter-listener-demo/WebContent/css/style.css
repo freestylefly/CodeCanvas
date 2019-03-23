@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+*{padding:0; margin:0;}
+
+.page{
+	background: linear-gradient(to bottom, #00ffec, #e6fdff);
+}
+
+.login{
+	width: 400px;
+	margin: 50px auto;
+	padding: 30px;
+}
+
+.login table tr:last-child td:last-child {
+	color: red;
+}
+
+.welcome{
+	height: 400px;
+	background-color: #d1d1d1;
+	text-align: center;
+	line-height: 400px;
+}
+.info{
+	margin: 10px;
+}
+.info legend{
+	margin-left: 20px;
+}
+
+.list table{
+	width: 100%;
+}
+.list table tr:first-child{
+	background-color: yellow;
+	font-weight: bold;
+}
+.list table tr{
+	text-align: center;
+}
+.list table tr:last-child td:first-child{
+	text-align: left;
+}
+.list table tr:last-child td:last-child{
+	text-align: right;
+}
+
+.middle{
+	overflow: hidden;
+}
+
+.left, .main{
+	float: left;
+}
+
+.main{
+	width: 84%;
+}
+
+.left{
+	width: 15%;
+}
+
+.left ul li{
+	line-height: 30px;
+	text-indent: 30px;
+}
+
+.left ul li:hover{
+	border-radius: 15px;
+	background-color:orange;
+	color: white;
+	cursor: pointer;
+}
+
+.left ul li a:link{
+	text-decoration: none;
+}
+
+.top{
+	position: relative;
+	line-height: 50px;
+}
+
+.top div:first-child {
+	position: relative;
+	left: 30px;
+}
+.top div:last-child {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+}
+
+.bottom{
+	text-align: center;
+	line-height: 50px;
+}
+
+/* 功能class */
+.list .hover{
+	background-color:orange;
+	color: white;
+	cursor: pointer;
+}
+
+.info .hide{
+	display: none;
+}
+
+.suc-msg{
+	background-color: #a4ffd1;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.err-msg{
+	background-color: #ff7171;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+

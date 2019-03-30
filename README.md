@@ -6,8 +6,9 @@
 
 <h1 align="center">测试图片1</h1>
 <p align="center">
-<img src="https://github.com/freestylefly/javaStudy/blob/master/images-to-use/2019-03/log.jpg" width=""/>
+<img src="https://s2.ax1x.com/2019/03/31/AD5Fc8.jpg" width=""/>
 </p>
+
 
 
 

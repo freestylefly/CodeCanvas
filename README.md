@@ -31,25 +31,25 @@
 目录
 =================
 
-   * [Java语言核心](#一、Java语言核心)
+   * [一、Java语言核心](#Java语言核心)
       * [1、Java核心语法](#Java核心语法)
-      * [java高级API](#java高级API)
-      * [3、java数据结构]()
-   * [二、Java与数据库交互技术]()
-      * [1、MySQL数据库]()
-      * [2、Oracle数据库]()
-   * [三、JavaWeb前后端交互技术基础]()
-      * [1、HTML基础与CSS]()
-      * [2、JavaScript与jQuery]()
-      * [3、Cookie&amp;Session]()
-      * [4、Http协议和Tomcate服务器]()
-      * [5、javaweb核心之Servlet]()
-      * [6、JSP]()
-      * [7、request&amp;response]()
-      * [8、滤器&amp;监听器]()
-      * [9、easyUI]()
-      * [10、UEditor]()
-      * [11、ajax]()
+      * [2、java高级API](#java高级API)
+      * [3、java数据结构](#java数据结构)
+   * [二、Java与数据库交互技术](#Java与数据库交互技术)
+      * [1、MySQL数据库](#MySQL数据库)
+      * [2、Oracle数据库](#Oracle数据库)
+   * [三、JavaWeb前后端交互技术基础](#JavaWeb前后端交互技术基础)
+      * [1、HTML基础与CSS](#HTML基础与CSS)
+      * [2、JavaScript与jQuery](#JavaScript与jQuery)
+      * [3、Cookie&amp;Session](#Cookie&amp;Session)
+      * [4、Http协议和Tomcate服务器](#Http协议和Tomcate服务器)
+      * [5、javaweb核心之Servlet](#javaweb核心之Servlet)
+      * [6、JSP](#JSP)
+      * [7、request&amp;response](#request&amp;response)
+      * [8、滤器和监听器](#滤器和监听器)
+      * [9、easyUI](#easyUI)
+      * [10、UEditor](#UEditor)
+      * [11、ajax](#ajax)
    * [四、常用工具和环境]()
       * [1、eclipse]()
       * [2、Git&amp;GitHub]()
@@ -116,37 +116,37 @@
 
 - [Java中的IO流和反射](Java语言核心/java核心API//Java中的IO流和反射.md)
 
-## 3、java数据结构
+## java数据结构
 
-# 二、Java与数据库交互技术
+# Java与数据库交互技术
 
-## 1、MySQL数据库
+## MySQL数据库
 
-## 2、Oracle数据库
+## Oracle数据库
 
-# 三、JavaWeb前后端交互技术基础
+# JavaWeb前后端交互技术基础
 
-## 1、HTML基础与CSS
+## HTML基础与CSS
 
-## 2、JavaScript与jQuery
+## JavaScript与jQuery
 
-## 3、Cookie&Session
+## Cookie&Session
 
-## 4、Http协议和Tomcate服务器
+## Http协议和Tomcate服务器
 
-## 5、javaweb核心之Servlet
+## javaweb核心之Servlet
 
-## 6、JSP
+## JSP
 
-## 7、request&response
+## request&response
 
-## 8、滤器&监听器
+## 滤器和监听器
 
-## 9、easyUI
+## easyUI
 
-## 10、UEditor
+## UEditor
 
-## 11、ajax
+## ajax
 
 # 四、常用工具和环境
 
@@ -264,7 +264,7 @@
  </a>
 </p>
 
-## 6公众号
+## 公众号
 
 <p align="center">
 <a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">

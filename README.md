@@ -31,8 +31,8 @@
 目录
 =================
 
-   * [一、Java语言核心](#一、Java语言核心)
-      * [1、Java核心语法](#1、Java核心语法)
+   * [Java语言核心](#一、Java语言核心)
+      * [1、Java核心语法](#Java核心语法)
       * [java高级API](#java高级API)
       * [3、java数据结构]()
    * [二、Java与数据库交互技术]()
@@ -110,7 +110,7 @@
 
 # 一、Java语言核心
 
-## 1、Java核心语法
+## Java核心语法
 
 ## java高级API
 
@@ -256,7 +256,7 @@
 
 ## 4、为什么要做这个开源文档？
 
-## 5、联系我
+## 联系我
 
 <p align="center">
 <a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
@@ -264,7 +264,7 @@
  </a>
 </p>
 
-## 6、公众号
+## 6公众号
 
 <p align="center">
 <a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">

@@ -33,7 +33,7 @@
 
    * [一、Java语言核心](#一、Java语言核心)
       * [1、Java核心语法](#1、Java核心语法)
-      * [2、java高级API]()
+      * [java高级API](#java高级API)
       * [3、java数据结构]()
    * [二、Java与数据库交互技术]()
       * [1、MySQL数据库]()
@@ -112,7 +112,7 @@
 
 ## 1、Java核心语法
 
-## 2、java高级API
+## java高级API
 
 - [Java中的IO流和反射](Java语言核心/java核心API//Java中的IO流和反射.md)
 

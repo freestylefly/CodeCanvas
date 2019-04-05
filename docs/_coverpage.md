@@ -5,6 +5,6 @@
 <h1 align="center">Java 学习/面试指南</h1>
 
 [常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/)
-[GitHub](<https://github.com/freestylefly/test>)
+[GitHub](<https://github.com/freestylefly/javaStudy>)
 [开始阅读](#Java语言核心)
 

@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3logo-透明.png" width=""/>
+<img src="https://s2.ax1x.com/2019/03/31/AD5Eng.jpg" width=""/>
 </p>
 
-<h1 align="center">Java 学习/面试指南</h1>
+<h1 align="center">Java 菜鸟 = > 大神</h1>
 
-[常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/)
+[我的博客](https://blog.csdn.net/qq_43270074)
 [GitHub](<https://github.com/freestylefly/javaStudy>)
 [开始阅读](#Java语言核心)
 

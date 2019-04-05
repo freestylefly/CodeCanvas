@@ -19,11 +19,11 @@
 
 ## java高级API
 
-- [Java中的IO流和反射](Java语言核心/java核心API//Java中的IO流和反射.md)
+- [Java中的IO流和反射](./Java语言核心/java核心API//Java中的IO流和反射.md)
 
 ## java数据结构
 
-- [java数据结构](Java语言核心/java核心API//Java中的IO流和反射.md)
+- [java数据结构](docs/Java语言核心/java核心API//Java中的IO流和反射.md)
 
 # Java与数据库交互技术
 

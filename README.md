@@ -107,7 +107,7 @@
       * [6、公众号](#公众号)
       * [7、CSDN博客](#CSDN博客)
 
-# :floppy_disk: Java语言核心
+# Java语言核心
 
 ## Java核心语法
 

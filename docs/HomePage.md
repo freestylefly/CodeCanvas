@@ -19,7 +19,7 @@
 
 ## java高级API
 
-- [Java中的IO流和反射](./Java语言核心/java核心API//Java中的IO流和反射.md)
+- [Java中的IO流和反射](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
 
 ## java数据结构
 

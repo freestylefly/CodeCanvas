@@ -40,19 +40,19 @@
    * [三、JavaWeb前后端交互技术基础](#JavaWeb前后端交互技术基础)
       * [1、HTML基础与CSS](#HTML基础与CSS)
       * [2、JavaScript与jQuery](#JavaScript与jQuery)
-      * [3、Cookie&amp;Session](#Cookie&amp;Session)
+      * [3、Cookie和Session](#Cookie和Session)
       * [4、Http协议和Tomcate服务器](#Http协议和Tomcate服务器)
       * [5、javaweb核心之Servlet](#javaweb核心之Servlet)
       * [6、JSP](#JSP)
-      * [7、request&amp;response](#request&amp;response)
-      * [8、滤器和监听器](#滤器和监听器)
+      * [7、request和response](#request和response)
+      * [8、过滤器和监听器](#过滤器和监听器)
       * [9、easyUI](#easyUI)
       * [10、UEditor](#UEditor)
       * [11、ajax](#ajax)
    * [四、常用工具和环境](#常用工具和环境)
       * [1、eclipse](#eclipse)
-      * [2、Git&amp;GitHub](#Git&amp;GitHub)
-      * [3、InteliJ IDEA](#InteliJ IDEA)
+      * [2、Git&amp;GitHub](#Git和GitHub)
+      * [3、IDEA](#IDEA)
       * [4、Linux](#Linux)
       * [5、SVN](#SVN)
       * [6、Maven](#Maven)
@@ -119,7 +119,7 @@
 
 - [java数据结构](Java语言核心/java核心API//Java中的IO流和反射.md)
 
-# :pencil2:Java与数据库交互技术
+# Java与数据库交互技术
 
 ## MySQL数据库
 
@@ -135,7 +135,7 @@
 - [云服务器安装oracle修改IP地址监听器报错问题](Java与数据库交互技术\Oracle数据库\Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
 - [oracle知识点总结](Java与数据库交互技术\Oracle数据库\Oracle重点知识点/oracle知识点总结.md)
 
-# :computer:JavaWeb前后端交互技术基础
+# JavaWeb前后端交互技术基础
 
 ## HTML基础与CSS
 
@@ -149,7 +149,7 @@
 - [JS中的数据类型转换](JavaWeb前后端交互技术基础\JavaScript/JS中的数据类型转换.md)
 - [jQuery知识](JavaWeb前后端交互技术基础\jQuery/jQuery知识.md)
 
-## Cookie&Session
+## Cookie和Session
 
 - [Cookie&Session](JavaWeb前后端交互技术基础\Java web\知识点/Cookie&Session)
 
@@ -165,7 +165,7 @@
 
 - [jsp](JavaWeb前后端交互技术基础\Java web\知识点\JSP)
 
-## request&response
+## request和response
 
 - [request](JavaWeb前后端交互技术基础\Java web\知识点\request)
 - [response](JavaWeb前后端交互技术基础\Java web\知识点\response)
@@ -187,7 +187,7 @@
 
 - [Ajax常用用法.md](JavaWeb前后端交互技术基础\Ajax/Ajax常用用法.md)
 
-# :wrench: 常用工具和环境
+#  常用工具和环境
 
 ## eclipse
 
@@ -197,12 +197,12 @@
 - [eclipse中配置XML提示.md](常用工具和环境\eclipse/eclipse中配置XML提示.md)
 - [解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md](常用工具和环境\eclipse/解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md)
 
-## Git&GitHub
+## Git和GitHub
 
 - [分布式版本控制工具——Git.md](常用工具和环境\Git&GitHub/分布式版本控制工具——Git.md)
 - [关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md](常用工具和环境\Git&GitHub/关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md)
 
-## InteliJ IDEA
+## IDEA
 
 - [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](常用工具和环境\InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
 
@@ -230,7 +230,7 @@
 
 - 
 
-# :art:JavaEE框架
+# JavaEE框架
 
 ## hibernate
 
@@ -277,7 +277,7 @@
 
 - 
 
-# :art:JavaEE高级课程
+# JavaEE高级课程
 
 ## 远程调用技术WebService
 
@@ -311,7 +311,7 @@
 
 - 
 
-# :bulb: 互联网架构新技术
+# 互联网架构新技术
 
 ## Zookeeper
 
@@ -369,31 +369,31 @@
 
 - 
 
-# :cloud: 经验总结
+# 经验总结
 
 - [使用序列化保存对象信息的时候出现中文乱码问题.md](经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
 
-# :watermelon:Java面试相关
+# Java面试相关
 
 - [JavaSE基础面试题（精简版）.md](java面试相关/JavaSE基础面试题（精简版）.md)
 - [java基础面试题.md](java面试相关/java基础面试题.md)
 - [华为招聘Java程序员笔试试卷（一）.md](java面试相关/华为招聘Java程序员笔试试卷（一）.md)
 
-# :memo: 资料
+# 资料
 
 - 
 
-# :coffee:闲谈
+# 闲谈
 
 - [又是一年，我还是我](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483799&idx=1&sn=0ee5a28e449dbff54b84b39069fc20d8&chksm=fd8fa188caf8289ec566b45c061970887a7a77bc98230c4fdde548f07a685c10c54178a43152&token=2015591107&lang=zh_CN#rd)
 - [念念不忘，必有反响！](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483812&idx=1&sn=b6a93e14e6b0393ef71fe211595241b9&chksm=fd8fa1bbcaf828ad43515886201fcbb72d9c52bf6766bea21eaac6359c7d7ed70126a31eb6db&token=2015591107&lang=zh_CN#rd)
 - [我的2018/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483794&idx=1&sn=6e3de4d312f7df711890e1bd1ed8a15c&chksm=fd8fa18dcaf8289b2ffb7abfc194db0ad9ab3b9a06b17877d6c8619bb1007c92de2d0b07d832&token=2015591107&lang=zh_CN#rd)
 
-# :computer:待办
+# 待办
 
 - [ ] SpringBoot的学习
 
-# :pencil2:说明
+# 说明
 
 ## 介绍
 
@@ -433,7 +433,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 
 
-## 7、CSDN博客
+## CSDN博客
 
 https://blog.csdn.net/qq_43270074
 

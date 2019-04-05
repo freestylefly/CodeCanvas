@@ -15,10 +15,9 @@
 <p><h1 align="center">我的CSDN博客</h1></p>
 
 <p align="center">
-<a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
- </a>
+<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
 </p>
+
 
 ### 先简单自我介绍：
 
@@ -422,18 +421,17 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 ## 联系我
 
 <p align="center">
-<a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://s2.ax1x.com/2019/03/31/AD5BjO.jpg" width=""/>
- </a>
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
 </p>
+
 
 ## 公众号
 
 <p align="center">
-<a href="https://e.coding.net/?utm_source=JavaGuide" target="_blank">
-  <img src="https://s2.ax1x.com/2019/03/31/AD5ruD.jpg" width=""/>
- </a>
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
 </p>
+
+
 
 ## 7、CSDN博客
 

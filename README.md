@@ -35,6 +35,9 @@
 ### 目录
 <!-- TOC -->
 
+        - [先简单自我介绍：](#先简单自我介绍)
+        - [项目简介](#项目简介)
+        - [目录](#目录)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
@@ -125,7 +128,7 @@
 - [XML技术.md](docs/Java_basic/java_basic_API/XML技术.md)
 - [多线程.md](docs/Java_basic/java_basic_API/多线程.md)
 - [网络编程技术.md](docs/Java_basic/java_basic_API/网络编程技术.md)
-- [网络编程技术.md](javaStudy\docs\Java_basic\java_basic_API\网络编程技术.md)
+- [网络编程技术.md](docs\Java_basic\java_basic_API\网络编程技术.md)
 
 ## java数据结构
 

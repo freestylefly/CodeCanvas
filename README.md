@@ -128,7 +128,6 @@
 - [XML技术.md](docs/Java_basic/java_basic_API/XML技术.md)
 - [多线程.md](docs/Java_basic/java_basic_API/多线程.md)
 - [网络编程技术.md](docs/Java_basic/java_basic_API/网络编程技术.md)
-- [网络编程技术.md](docs\Java_basic\java_basic_API\网络编程技术.md)
 
 ## java数据结构
 
@@ -138,7 +137,7 @@
 
 ## MySQL数据库
 
-- [MySQL数据库基础知识](docs\Java与数据库交互技术\MySQL数据库\MySQL基础/MySQL数据库基础知识.md)
+- [MySQL数据库基础知识](docs/Java与数据库交互技术/MySQL数据库/MySQL基础/MySQL数据库基础知识.md)
 - [c3p0连接池的用法](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\c3p0连接池/c3p0连接池的用法.md)
 - [DBCP连接池和登录注册按例](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBCP连接池和登录注册按例.md)
 - [DBUtils工具类操作数据库](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBUtils/DBUtils工具类操作数据库.md)

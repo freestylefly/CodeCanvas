@@ -6,120 +6,132 @@
 <p align="center">
   <a href="https://github.com/freestylefly/javaStudy"><img src="https://img.shields.io/badge/%E9%98%85%E8%AF%BB-read-blue.svg" alt="阅读"></a>
   <a href="#联系我"><img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-callme-orange.svg" alt="微信"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-canghe-lightgrey.svg" alt="公众号"></a>
   <a href="https://github.com/freestylefly/javaStudy/issues"><img src="https://img.shields.io/badge/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88-Issurs-brightgreen.svg" alt="公众号"></a>
-  <a href="#投稿"><img src="https://img.shields.io/badge/support-投稿-critical.svg" alt="投稿"></a>
+  <a href="#个人博客"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-blog-red.svg" alt="投稿"></a>
 <h2 align="center">The more effort，the more lucky</h2>
 </p>
-<p><h3 align="center">我的CSDN博客</h3></p>
+<a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
 
 <p align="center">
 <img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
 </p>
-
+<a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
+<p align="center">
+<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+</p>
 
 ### 先简单自我介绍：
 
-一个土木普通一本毕业的菜鸟，去过工地、见过大山，发现人生无趣，于是学起了编程，现在也算成功转行，很多朋友问我相关经验，我想此仓库的目的就在于此，一个人的能力有限，希望大家多多帮助。
+我曾经跨过山河大海，也穿过人山人海，我曾经拥有者一切，转眼都飘散如烟........
+2017年，在重庆大山，晚上回来在卡车斗篷里，我们一起唱起了这首歌，究竟什么是平凡？那一刻，我想明白了，平凡不是每天的心心念念，而是知道自己该做什么
+2018年，在深圳的单人出租房里，同样的问自己，真正的平凡是，人走了，并没有留存下来的东西！
+故，此分享仓库产生了！
 
 ### 项目简介
 
 完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
 
-目录
-=================
+### 目录
+<!-- TOC -->
 
-   * [一、Java语言核心](#Java语言核心)
-      * [1、Java核心语法](#Java核心语法)
-      * [2、java高级API](#java高级API)
-      * [3、java数据结构](#java数据结构)
-   * [二、Java与数据库交互技术](#Java与数据库交互技术)
-      * [1、MySQL数据库](#MySQL数据库)
-      * [2、Oracle数据库](#Oracle数据库)
-   * [三、JavaWeb前后端交互技术基础](#JavaWeb前后端交互技术基础)
-      * [1、HTML基础与CSS](#HTML基础与CSS)
-      * [2、JavaScript与jQuery](#JavaScript与jQuery)
-      * [3、Cookie和Session](#Cookie和Session)
-      * [4、Http协议和Tomcate服务器](#Http协议和Tomcate服务器)
-      * [5、javaweb核心之Servlet](#javaweb核心之Servlet)
-      * [6、JSP](#JSP)
-      * [7、request和response](#request和response)
-      * [8、过滤器和监听器](#过滤器和监听器)
-      * [9、easyUI](#easyUI)
-      * [10、UEditor](#UEditor)
-      * [11、ajax](#ajax)
-   * [四、常用工具和环境](#常用工具和环境)
-      * [1、eclipse](#eclipse)
-      * [2、Git&amp;GitHub](#Git和GitHub)
-      * [3、IDEA](#IDEA)
-      * [4、Linux](#Linux)
-      * [5、SVN](#SVN)
-      * [6、Maven](#Maven)
-      * [7、Redis](#Redis)
-      * [8、高并发编程工具JUC](#高并发编程工具JUC)
-      * [9、命令解析器Shell](#命令解析器Shell)
-   * [五、JavaEE框架](#JavaEE框架)
-      * [1、hibernate](#hibernate)
-      * [2、Mybatis](#Mybatis)
-      * [3、Spring](#Spring)
-      * [4、SpringMVC](#SpringMVC)
-      * [5、Struts2](#Struts2)
-      * [6、SpringBoot](#SpringBoot)
-      * [7、SpringCloud微服务](#SpringCloud微服务)
-      * [8、Web安全框架SpringSecurity](#Web安全框架SpringSecurity)
-      * [9、分布式Session给管理SpringSession](#分布式Session给管理SpringSession)
-   * [六、JavaEE高级课程](#JavaEE高级课程)
-      * [1、远程调用技术WebService](#远程调用技术WebService)
-      * [2、Mycat实现Mysql的分布式、分库分表、读写分离](#Mycat实现Mysql的分布式、分库分表、读写分离)
-      * [3、Nginx反向代理、负载均衡、动静分离](#Nginx反向代理、负载均衡、动静分离)
-      * [4、全文索引数据库Solr](#全文索引数据库Solr)
-      * [5、分布式构建框架Dubbo](#分布式构建框架Dubbo)
-      * [6、Tomcat性能优化](#Tomcat性能优化)
-      * [7、JVM内存模型、参数调优](#JVM内存模型、参数调优)
-      * [8、java开发包JUC](#java开发包JUC)
-   * [七、互联网架构新技术](#互联网架构新技术)
-      * [1、Zookeeper](#Zookeeper)
-      * [2、Elasticsearch](#Elasticsearch)
-      * [3、Logstash](#Logstash)
-      * [4、kibana](#kibana)
-      * [5、Kalka](#Kalka)
-      * [6、Docker](#Docker)
-      * [7、Hadoop](#Hadoop)
-      * [8、Hive](#Hive)
-      * [9、MapReduce](#MapReduce)
-      * [10、Node.js、vue.js](#Node.js、vue.js)
-      * [11、RabbitMQ](#RabbitMQ)
-      * [12、Canal](#Canal)
-      * [13、Swagger2](#Swagger2)
-      * [14、SpringSocial](#SpringSocial)
-   * [八、经验总结](#经验总结)
-   * [九、Java面试相关](#Java面试相关)
-   * [十、资料](#资料)
-   * [十一、闲谈](#闲谈)
-   * [十二、待办](#待办)
-   * [十三、说明](#说明)
-      * [1、介绍](#介绍)
-      * [2、关于转载](#关于转载)
-      * [3、如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
-      * [4、为什么要做这个开源文档？](#为什么要做这个开源文档？)
-      * [5、联系我](#联系我)
-      * [6、公众号](#公众号)
-      * [7、CSDN博客](#CSDN博客)
+- [Java语言核心:wedding:](#java语言核心wedding)
+    - [Java核心语法](#java核心语法)
+    - [java高级API](#java高级api)
+    - [java数据结构](#java数据结构)
+- [Java与数据库交互技术:tokyo_tower:](#java与数据库交互技术tokyo_tower)
+    - [MySQL数据库](#mysql数据库)
+    - [Oracle数据库](#oracle数据库)
+- [JavaWeb前后端交互技术基础:airplane:](#javaweb前后端交互技术基础airplane)
+    - [HTML基础与CSS](#html基础与css)
+    - [JavaScript与jQuery](#javascript与jquery)
+    - [Cookie和Session](#cookie和session)
+    - [Http协议和Tomcate服务器](#http协议和tomcate服务器)
+    - [javaweb核心之Servlet](#javaweb核心之servlet)
+    - [JSP](#jsp)
+    - [request和response](#request和response)
+    - [过滤器和监听器](#过滤器和监听器)
+    - [easyUI](#easyui)
+    - [UEditor](#ueditor)
+    - [ajax](#ajax)
+- [常用工具和环境:station:](#常用工具和环境station)
+    - [eclipse](#eclipse)
+    - [Git和GitHub](#git和github)
+    - [IDEA](#idea)
+    - [Linux](#linux)
+    - [SVN](#svn)
+    - [Maven](#maven)
+    - [Redis](#redis)
+    - [高并发编程工具JUC](#高并发编程工具juc)
+    - [命令解析器Shell](#命令解析器shell)
+- [JavaEE框架:black_joker:](#javaee框架black_joker)
+    - [hibernate](#hibernate)
+    - [Mybatis](#mybatis)
+    - [Spring](#spring)
+    - [SpringMVC](#springmvc)
+    - [Struts2](#struts2)
+    - [SpringBoot](#springboot)
+    - [SpringCloud微服务](#springcloud微服务)
+    - [Web安全框架SpringSecurity](#web安全框架springsecurity)
+    - [分布式Session给管理SpringSession](#分布式session给管理springsession)
+- [JavaEE高级课程:dart:](#javaee高级课程dart)
+    - [远程调用技术WebService](#远程调用技术webservice)
+    - [Mycat实现Mysql的分布式、分库分表、读写分离](#mycat实现mysql的分布式分库分表读写分离)
+    - [Nginx反向代理、负载均衡、动静分离](#nginx反向代理负载均衡动静分离)
+    - [全文索引数据库Solr](#全文索引数据库solr)
+    - [分布式构建框架Dubbo](#分布式构建框架dubbo)
+    - [Tomcat性能优化](#tomcat性能优化)
+    - [JVM内存模型、参数调优](#jvm内存模型参数调优)
+    - [java开发包JUC](#java开发包juc)
+- [互联网架构新技术:sunny:](#互联网架构新技术sunny)
+    - [Zookeeper](#zookeeper)
+    - [Elasticsearch](#elasticsearch)
+    - [Logstash](#logstash)
+    - [kibana](#kibana)
+    - [Kalka](#kalka)
+    - [Docker](#docker)
+    - [Hadoop](#hadoop)
+    - [Hive](#hive)
+    - [MapReduce](#mapreduce)
+    - [Node.js、vue.js](#nodejsvuejs)
+    - [RabbitMQ](#rabbitmq)
+    - [Canal](#canal)
+    - [Swagger2](#swagger2)
+    - [SpringSocial](#springsocial)
+- [经验总结:no_mouth:](#经验总结no_mouth)
+- [Java面试相关:musical_note:](#java面试相关musical_note)
+- [资料:christmas_tree:](#资料christmas_tree)
+- [闲谈:floppy_disk:](#闲谈floppy_disk)
+- [待办:loop:](#待办loop)
+- [说明:battery:](#说明battery)
+    - [介绍](#介绍)
+    - [关于转载](#关于转载)
+    - [如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
+    - [为什么要做这个开源文档？](#为什么要做这个开源文档)
+    - [联系我](#联系我)
+    - [公众号](#公众号)
+    - [CSDN博客](#csdn博客)
+    - [个人博客](#个人博客)
 
-# Java语言核心
+<!-- /TOC -->
+
+# Java语言核心:wedding:
 
 ## Java核心语法
 
 ## java高级API
 
-- [Java中的IO流和反射](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
-- [Java中的IO流和反射](./Java_basic/java_basic_API/Java中的IO流和反射.md)
+- [Java中的IO流和反射.md](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
+- [XML技术.md](docs/Java_basic/java_basic_API/XML技术.md)
+- [多线程.md](docs/Java_basic/java_basic_API/多线程.md)
+- [网络编程技术.md](docs/Java_basic/java_basic_API/网络编程技术.md)
+- [网络编程技术.md](javaStudy\docs\Java_basic\java_basic_API\网络编程技术.md)
 
 ## java数据结构
 
 - [java数据结构](docs/Java语言核心/java核心API//Java中的IO流和反射.md)
 
-# Java与数据库交互技术
+# Java与数据库交互技术:tokyo_tower:
 
 ## MySQL数据库
 
@@ -135,7 +147,7 @@
 - [云服务器安装oracle修改IP地址监听器报错问题](docs\Java与数据库交互技术\Oracle数据库\Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
 - [oracle知识点总结](docs\Java与数据库交互技术\Oracle数据库\Oracle重点知识点/oracle知识点总结.md)
 
-# JavaWeb前后端交互技术基础
+# JavaWeb前后端交互技术基础:airplane:
 
 ## HTML基础与CSS
 
@@ -187,7 +199,7 @@
 
 - [Ajax常用用法.md](docs\JavaWeb前后端交互技术基础\Ajax/Ajax常用用法.md)
 
-#  常用工具和环境
+#  常用工具和环境:station:
 
 ## eclipse
 
@@ -230,7 +242,7 @@
 
 - 
 
-# JavaEE框架
+# JavaEE框架:black_joker:
 
 ## hibernate
 
@@ -277,7 +289,7 @@
 
 - 
 
-# JavaEE高级课程
+# JavaEE高级课程:dart:
 
 ## 远程调用技术WebService
 
@@ -311,7 +323,7 @@
 
 - 
 
-# 互联网架构新技术
+# 互联网架构新技术:sunny:
 
 ## Zookeeper
 
@@ -369,31 +381,31 @@
 
 - 
 
-# 经验总结
+# 经验总结:no_mouth:
 
 - [使用序列化保存对象信息的时候出现中文乱码问题.md](docs\经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
 
-# Java面试相关
+# Java面试相关:musical_note:
 
 - [JavaSE基础面试题（精简版）.md](docs\java面试相关/JavaSE基础面试题（精简版）.md)
 - [java基础面试题.md](docs\java面试相关/java基础面试题.md)
 - [华为招聘Java程序员笔试试卷（一）.md](docs\java面试相关/华为招聘Java程序员笔试试卷（一）.md)
 
-# 资料
+# 资料:christmas_tree:
 
 - 
 
-# 闲谈
+# 闲谈:floppy_disk:
 
 - [又是一年，我还是我](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483799&idx=1&sn=0ee5a28e449dbff54b84b39069fc20d8&chksm=fd8fa188caf8289ec566b45c061970887a7a77bc98230c4fdde548f07a685c10c54178a43152&token=2015591107&lang=zh_CN#rd)
 - [念念不忘，必有反响！](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483812&idx=1&sn=b6a93e14e6b0393ef71fe211595241b9&chksm=fd8fa1bbcaf828ad43515886201fcbb72d9c52bf6766bea21eaac6359c7d7ed70126a31eb6db&token=2015591107&lang=zh_CN#rd)
 - [我的2018/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483794&idx=1&sn=6e3de4d312f7df711890e1bd1ed8a15c&chksm=fd8fa18dcaf8289b2ffb7abfc194db0ad9ab3b9a06b17877d6c8619bb1007c92de2d0b07d832&token=2015591107&lang=zh_CN#rd)
 
-# 待办
+# 待办:loop:
 
 - [ ] SpringBoot的学习
 
-# 说明
+# 说明:battery:
 
 ## 介绍
 
@@ -436,4 +448,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 ## CSDN博客
 
 https://blog.csdn.net/qq_43270074
+
+## 个人博客
+https://freestylefly.github.io/
 

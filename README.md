@@ -31,6 +31,9 @@
 ### 项目简介
 
 完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
+:thumbsup:为了更好的阅读体验，请访问<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
+:gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
+
 
 ### 目录
 <!-- TOC -->
@@ -42,6 +45,8 @@
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
     - [java数据结构](#java数据结构)
+    - [java核心语法](#java核心语法)
+    - [算法](#算法)
 - [Java与数据库交互技术:tokyo_tower:](#java与数据库交互技术tokyo_tower)
     - [MySQL数据库](#mysql数据库)
     - [Oracle数据库](#oracle数据库)
@@ -131,41 +136,45 @@
 
 ## java数据结构
 
-- [java数据结构](docs/Java语言核心/java核心API//Java中的IO流和反射.md)
+- [java数据结构](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
+## java核心语法
+- [java核心语法](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
+## 算法
+- [N个人站圈报数算法问题.md](docs/Java_basic/java_basic_API//N个人站圈报数算法问题.md)
 
 # Java与数据库交互技术:tokyo_tower:
 
 ## MySQL数据库
 
 - [MySQL数据库基础知识](docs/Java与数据库交互技术/MySQL数据库/MySQL基础/MySQL数据库基础知识.md)
-- [c3p0连接池的用法](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\c3p0连接池/c3p0连接池的用法.md)
-- [DBCP连接池和登录注册按例](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBCP连接池和登录注册按例.md)
-- [DBUtils工具类操作数据库](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\DBUtils/DBUtils工具类操作数据库.md)
-- [JDBC操作数据库](docs\Java与数据库交互技术\MySQL数据库\JDBC操作数据库\JDBC操作数据库基础/JDBC操作数据库.md)
+- [c3p0连接池的用法](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/c3p0连接池/c3p0连接池的用法.md)
+- [DBCP连接池和登录注册按例](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBCP连接池和登录注册按例.md)
+- [DBUtils工具类操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBUtils/DBUtils工具类操作数据库.md)
+- [JDBC操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/JDBC操作数据库基础/JDBC操作数据库.md)
 
 ## Oracle数据库
 
-- [将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）](docs\Java与数据库交互技术\Oracle数据库\Oracle的安装/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）.md)
-- [云服务器安装oracle修改IP地址监听器报错问题](docs\Java与数据库交互技术\Oracle数据库\Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
-- [oracle知识点总结](docs\Java与数据库交互技术\Oracle数据库\Oracle重点知识点/oracle知识点总结.md)
+- [将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）](docs/Java与数据库交互技术/Oracle数据库/Oracle的安装/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）.md)
+- [云服务器安装oracle修改IP地址监听器报错问题](docs/Java与数据库交互技术/Oracle数据库/Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
+- [oracle知识点总结](docs/Java与数据库交互技术/Oracle数据库/Oracle重点知识点/oracle知识点总结.md)
 
 # JavaWeb前后端交互技术基础:airplane:
 
 ## HTML基础与CSS
 
-- [HTML&CSS基础](docs\JavaWeb前后端交互技术基础\HTML&CSS/HTML&CSS基础.md)
-- [webstorm上导入文件中文乱码问题解决](docs\\JavaWeb前后端交互技术基础\HTML&CSS/webstorm上导入文件中文乱码问题解决.md)
-- [webstorm设置黑色主题及相关的编码和显示设置](docs\JavaWeb前后端交互技术基础\HTML&CSS/webstorm设置黑色主题及相关的编码和显示设置.md)
+- [HTML&CSS基础](docs/JavaWeb前后端交互技术基础/HTML&CSS/HTML&CSS基础.md)
+- [webstorm上导入文件中文乱码问题解决](docs/JavaWeb前后端交互技术基础/HTML&CSS/webstorm上导入文件中文乱码问题解决.md)
+- [webstorm设置黑色主题及相关的编码和显示设置](docs/JavaWeb前后端交互技术基础/HTML&CSS/webstorm设置黑色主题及相关的编码和显示设置.md)
 
 ## JavaScript与jQuery
 
-- [JavaScript基础知识](docs\JavaWeb前后端交互技术基础\JavaScript/JavaScript基础知识.md)
-- [JS中的数据类型转换](docs\JavaWeb前后端交互技术基础\JavaScript/JS中的数据类型转换.md)
-- [jQuery知识](docs\JavaWeb前后端交互技术基础\jQuery/jQuery知识.md)
+- [JavaScript基础知识](docs/JavaWeb前后端交互技术基础/JavaScript/JavaScript基础知识.md)
+- [JS中的数据类型转换](docs/JavaWeb前后端交互技术基础/JavaScript/JS中的数据类型转换.md)
+- [jQuery知识](docs/JavaWeb前后端交互技术基础/jQuery/jQuery知识.md)
 
 ## Cookie和Session
 
-- [Cookie&Session](docs\JavaWeb前后端交互技术基础\Java web\知识点/Cookie&Session)
+- [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java web/知识点/Cookie&Session)
 
 ## Http协议和Tomcate服务器
 
@@ -173,52 +182,52 @@
 
 ## javaweb核心之Servlet
 
-- [在javaEE中外部的js文件如何和页面之间传递参数](docs\JavaWeb前后端交互技术基础\Java web\知识点\javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
+- [在javaEE中外部的js文件如何和页面之间传递参数](docs/JavaWeb前后端交互技术基础/Java web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
 
 ## JSP
 
-- [jsp](docs\JavaWeb前后端交互技术基础\Java web\知识点\JSP)
+- [jsp](docs/JavaWeb前后端交互技术基础/Java web/知识点/JSP)
 
 ## request和response
 
-- [request](docs\JavaWeb前后端交互技术基础\Java web\知识点\request\HttpServletRequest.doc)
-- [response](docs\JavaWeb前后端交互技术基础\Java web\知识点\response)
+- [request](docs/JavaWeb前后端交互技术基础/Java web/知识点/request\HttpServletRequest.doc)
+- [response](docs/JavaWeb前后端交互技术基础/Java web/知识点/response)
 
 ## 过滤器和监听器
 
-- [过滤器](docs\JavaWeb前后端交互技术基础\Java web\知识点\滤器&监听器/过滤器.txt)
-- [监听器](docs\JavaWeb前后端交互技术基础\Java web\知识点\滤器&监听器/监听器.txt)
+- [过滤器](docs/JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/过滤器.txt)
+- [监听器](docs/JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/监听器.txt)
 
 ## easyUI
 
-- [jQuery+EasyUI开发指南](docs\JavaWeb前后端交互技术基础\easyUI/jQuery+EasyUI开发指南.pdf)
+- [jQuery+EasyUI开发指南](docs/JavaWeb前后端交互技术基础/easyUI/jQuery+EasyUI开发指南.pdf)
 
 ## UEditor
 
-- [UEditor](docs\JavaWeb前后端交互技术基础\UEditor)
+- [UEditor](docs/JavaWeb前后端交互技术基础/UEditor)
 
 ## ajax
 
-- [Ajax常用用法.md](docs\JavaWeb前后端交互技术基础\Ajax/Ajax常用用法.md)
+- [Ajax常用用法.md](docs/JavaWeb前后端交互技术基础/Ajax/Ajax常用用法.md)
 
 #  常用工具和环境:station:
 
 ## eclipse
 
-- [Eclipse配置Servlet模板.md](docs\常用工具和环境\eclipse/Eclipse配置Servlet模板.md)
-- [Eclipse调用方法放回值快捷键.md](docs\常用工具和环境\eclipse/Eclipse调用方法放回值快捷键.md)
-- [eclipse详解及eclipse快捷键.md](docs\常用工具和环境\eclipse/eclipse详解及eclipse快捷键.md)
-- [eclipse中配置XML提示.md](docs\常用工具和环境\eclipse/eclipse中配置XML提示.md)
-- [解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md](docs\常用工具和环境\eclipse/解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md)
+- [Eclipse配置Servlet模板.md](docs/常用工具和环境/eclipse/Eclipse配置Servlet模板.md)
+- [Eclipse调用方法放回值快捷键.md](docs/常用工具和环境/eclipse/Eclipse调用方法放回值快捷键.md)
+- [eclipse详解及eclipse快捷键.md](docs/常用工具和环境/eclipse/eclipse详解及eclipse快捷键.md)
+- [eclipse中配置XML提示.md](docs/常用工具和环境/eclipse/eclipse中配置XML提示.md)
+- [解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md](docs/常用工具和环境/eclipse/解决在Eclipse新建web项目没有自动生成web.xml和在新建servlet的时候自动生成web.xml配置.md)
 
 ## Git和GitHub
 
-- [分布式版本控制工具——Git.md](docs\常用工具和环境\Git&GitHub/分布式版本控制工具——Git.md)
-- [关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md](docs\常用工具和环境\Git&GitHub/关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md)
+- [分布式版本控制工具——Git.md](docs/常用工具和环境/Git&GitHub/分布式版本控制工具——Git.md)
+- [关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md](docs/常用工具和环境/Git&GitHub/关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md)
 
 ## IDEA
 
-- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](docs\常用工具和环境\InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
+- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](docs/常用工具和环境/InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
 
 ## Linux
 
@@ -226,7 +235,7 @@
 
 ## SVN
 
-- [版本控制工具之SVN.md](docs\常用工具和环境\SVN/版本控制工具之SVN.md)
+- [版本控制工具之SVN.md](docs/常用工具和环境/SVN/版本控制工具之SVN.md)
 
 ## Maven
 
@@ -248,21 +257,21 @@
 
 ## hibernate
 
-- [eclipse中配置XML提示.md](docs\JavaEE框架\hibernate/eclipse中配置XML提示.md)
-- [Hibernate之入门.md](docs\JavaEE框架\hibernate/Hibernate之入门.md)
-- [Hibernate之进阶1——主键生成策略和事务管理.md](docs\JavaEE框架\hibernate/Hibernate之进阶1——主键生成策略和事务管理.md)
-- [Hibernate之进阶2——表操作和多对多配置.md](docs\JavaEE框架\hibernate/Hibernate之进阶2——表操作和多对多配置.md)
-- [Hibernate之进阶3——查询方式.md](docs\JavaEE框架\hibernate/Hibernate之进阶3——查询方式.md)
-- [Hibernate之进阶4——抓取策略.md](docs\JavaEE框架\hibernate/Hibernate之进阶4——抓取策略.md)
+- [eclipse中配置XML提示.md](docs/JavaEE框架/hibernate/eclipse中配置XML提示.md)
+- [Hibernate之入门.md](docs/JavaEE框架/hibernate/Hibernate之入门.md)
+- [Hibernate之进阶1——主键生成策略和事务管理.md](docs/JavaEE框架/hibernate/Hibernate之进阶1——主键生成策略和事务管理.md)
+- [Hibernate之进阶2——表操作和多对多配置.md](docs/JavaEE框架/hibernate/Hibernate之进阶2——表操作和多对多配置.md)
+- [Hibernate之进阶3——查询方式.md](docs/JavaEE框架/hibernate/Hibernate之进阶3——查询方式.md)
+- [Hibernate之进阶4——抓取策略.md](docs/JavaEE框架/hibernate/Hibernate之进阶4——抓取策略.md)
 
 ## Mybatis
 
-- [MyBatis常见问题.md](docs\JavaEE框架\Mybatis/MyBatis常见问题.md)
+- [MyBatis常见问题.md](docs/JavaEE框架/Mybatis/MyBatis常见问题.md)
 
 ## Spring
 
-- [01.Spring入门与常用配置.md](docs\JavaEE框架\Spring/01.Spring入门与常用配置.md)
-- [02 .注解IOC&AOP.md](docs\JavaEE框架\Spring/02 .注解IOC&AOP.md)
+- [Spring入门与常用配置.md](docs/JavaEE框架/Spring/01.Spring入门与常用配置.md)
+- [注解IOC&AOP.md](docs/JavaEE框架/Spring/注解IOC&AOP.md)
 
 ## SpringMVC
 
@@ -270,10 +279,11 @@
 
 ## Struts2
 
-- [01 struts2入门&常见配置.md](docs\JavaEE框架\Struts2/01 struts2入门&常见配置.md)
-- [02 Servlet的API&封装.md](docs\JavaEE框架\Struts2/02 Servlet的API&封装.md)
-- [03 Struts2中的OGNL和值栈ValueStack.md](docs\JavaEE框架\Struts2/03 Struts2中的OGNL和值栈ValueStack.md)
-- [04 Struts2中的拦截器和标签库.md](docs\JavaEE框架\Struts2/04 Struts2中的拦截器和标签库.md)
+
+- [struts2入门&常见配置.md](docs/JavaEE框架/Struts2/struts2入门&常见配置.md)
+- [02 Servlet的API&封装.md](docs/JavaEE框架/Struts2/Servlet的API&封装.md)
+- [03 Struts2中的OGNL和值栈ValueStack.md](docs/JavaEE框架/Struts2/Struts2中的OGNL和值栈ValueStack.md)
+- [04 Struts2中的拦截器和标签库.md](docs/JavaEE框架/Struts2/Struts2中的拦截器和标签库.md)
 
 ## SpringBoot
 
@@ -385,13 +395,13 @@
 
 # 经验总结:no_mouth:
 
-- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs\经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
 
 # Java面试相关:musical_note:
 
-- [JavaSE基础面试题（精简版）.md](docs\java面试相关/JavaSE基础面试题（精简版）.md)
-- [java基础面试题.md](docs\java面试相关/java基础面试题.md)
-- [华为招聘Java程序员笔试试卷（一）.md](docs\java面试相关/华为招聘Java程序员笔试试卷（一）.md)
+- [JavaSE基础面试题（精简版）.md](docs/java面试相关/JavaSE基础面试题（精简版）.md)
+- [java基础面试题.md](docs/java面试相关/java基础面试题.md)
+- [华为招聘Java程序员笔试试卷（一）.md](docs/java面试相关/华为招聘Java程序员笔试试卷（一）.md)
 
 # 资料:christmas_tree:
 
@@ -418,6 +428,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/)
 
+MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且可以在GitHub显示
 ## 关于转载
 
 如果你需要转载本仓库的一些文章到自己的博客的话，记得注明原文地址就可以了。

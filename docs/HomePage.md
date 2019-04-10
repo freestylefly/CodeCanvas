@@ -72,7 +72,7 @@
 
 ## Cookie和Session
 
-- [Cookie&Session](./JavaWeb前后端交互技术基础/Java web/知识点/Cookie&Session)
+- [Cookie&Session](./JavaWeb前后端交互技术基础/Java_web/知识点/Cookie&Session)
 
 ## Http协议和Tomcate服务器
 
@@ -80,21 +80,20 @@
 
 ## javaweb核心之Servlet
 
-- [在javaEE中外部的js文件如何和页面之间传递参数](./JavaWeb前后端交互技术基础/Java web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
+- [在javaEE中外部的js文件如何和页面之间传递参数](./JavaWeb前后端交互技术基础/Java_web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
 
 ## JSP
 
-- [jsp](./JavaWeb前后端交互技术基础/Java web/知识点/JSP)
+- [jsp](./JavaWeb前后端交互技术基础/Java_web/知识点/JSP)
 
 ## request和response
 
-- [request](./JavaWeb前后端交互技术基础/Java web/知识点/request\HttpServletRequest.doc)
-- [response](./JavaWeb前后端交互技术基础/Java web/知识点/response)
+- [request](./JavaWeb前后端交互技术基础/Java_web/知识点/request\HttpServletRequest.doc)
+- [response](./JavaWeb前后端交互技术基础/Java_web/知识点/response)
 
 ## 过滤器和监听器
-
-- [过滤器](./JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/过滤器.txt)
-- [监听器](./JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/监听器.txt)
+- [过滤器](./JavaWeb前后端交互技术基础/Java_web/知识点/滤器和监听器/过滤器.txt)
+- [监听器](./JavaWeb前后端交互技术基础/Java_web/知识点/滤器&监听器/监听器.txt)
 
 ## easyUI
 
@@ -125,7 +124,7 @@
 
 ## IDEA
 
-- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](./常用工具和环境/InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
+- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](./常用工具和环境/InteliJ_IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
 
 ## Linux
 

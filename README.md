@@ -37,10 +37,6 @@
 
 ### 目录
 <!-- TOC -->
-
-        - [先简单自我介绍：](#先简单自我介绍)
-        - [项目简介](#项目简介)
-        - [目录](#目录)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
@@ -190,13 +186,13 @@
 
 ## request和response
 
-- [request](docs/JavaWeb前后端交互技术基础/Java web/知识点/request\HttpServletRequest.doc)
-- [response](docs/JavaWeb前后端交互技术基础/Java web/知识点/response)
+- [request](docs/JavaWeb前后端交互技术基础/Java_web/知识点/request\HttpServletRequest.doc)
+- [response](docs/JavaWeb前后端交互技术基础/Java_web/知识点/response)
 
 ## 过滤器和监听器
 
-- [过滤器](docs/JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/过滤器.txt)
-- [监听器](docs/JavaWeb前后端交互技术基础/Java web/知识点/滤器&监听器/监听器.txt)
+- [过滤器](docs/JavaWeb前后端交互技术基础/Java_web/知识点/滤器&监听器/过滤器.txt)
+- [监听器](docs/JavaWeb前后端交互技术基础/Java_web/知识点/滤器&监听器/监听器.txt)
 
 ## easyUI
 
@@ -204,11 +200,11 @@
 
 ## UEditor
 
-- [UEditor](docs/JavaWeb前后端交互技术基础/UEditor)
+- [UEditor](docs/Java_Web前后端交互技术基础/UEditor)
 
 ## ajax
 
-- [Ajax常用用法.md](docs/JavaWeb前后端交互技术基础/Ajax/Ajax常用用法.md)
+- [Ajax常用用法.md](docs/Java_Web前后端交互技术基础/Ajax/Ajax常用用法.md)
 
 #  常用工具和环境:station:
 
@@ -227,7 +223,7 @@
 
 ## IDEA
 
-- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](docs/常用工具和环境/InteliJ IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
+- [尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf](docs/常用工具和环境/InteliJ_IDEA/尚硅谷_宋红康_IntelliJIDEA的安装、配置与使用.pdf)
 
 ## Linux
 

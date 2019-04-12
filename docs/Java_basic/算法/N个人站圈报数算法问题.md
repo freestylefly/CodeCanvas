@@ -1,5 +1,15 @@
 ﻿
 这是一道算法面试题
+---
+layout: post
+title: N个人站圈报数算法问题
+categories: Java语言核心
+description: Java 网络编程技术 
+keywords: Java-basic, 算法
+---
+
+本系列文章在 <https://github.com/freestylefly/javaStudy> 持(jing)续(chang)更(duan)新(geng)中，欢迎有兴趣的童鞋们关注。
+
 ```java
 import java.util.Scanner;
 
@@ -97,4 +107,15 @@ public class Test {
 }
 
 ```
+------
+# 本文章已同步至GitHub仓库：<a href="Javasthttps://github.com/freestylefly/javaStudyudy">Javastudy</a>,期待您的加入:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/github.jpg" width=""/>
 
+# 本文章已同步至<a href="https://freestylefly.github.io/">苍何的个人博客</a>,可以直接在博客上留言哦:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+
+# 来我的微信公众号玩耍呗:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+
+# 扫码无套路关注我的CSDN博客:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/CSDN.png" width=""/>

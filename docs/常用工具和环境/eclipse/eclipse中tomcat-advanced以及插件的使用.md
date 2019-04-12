@@ -14,3 +14,15 @@
 注意：当项目死活启动说缺少相应jar包，排除其他问题，那么可以考虑，是不是tomcat-advanced这里没有依赖给引进来。</br>
 我就是因为这个点，最后项目启动了半天，还是有经验的同事告诉我才解决这个问题。
 eclipse真是个神奇的东西，各种错误都某明奇妙，走IDEA了准备。
+------
+# 本文章已同步至GitHub仓库：<a href="Javasthttps://github.com/freestylefly/javaStudyudy">Javastudy</a>,期待您的加入:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/github.jpg" width=""/>
+
+# 本文章已同步至<a href="https://freestylefly.github.io/">苍何的个人博客</a>,可以直接在博客上留言哦:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+
+# 来我的微信公众号玩耍呗:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+
+# 扫码无套路关注我的CSDN博客:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/CSDN.png" width=""/>

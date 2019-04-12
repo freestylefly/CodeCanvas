@@ -9,3 +9,15 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181221175655916.png)
 还可以对变量名选择，一般情况变量名和变量类型一致，只是首字母不要大写即可
 ，如果Ctrl+1后选择第二个，需要你自己手动输入变量名，一般Ctrl+1，然后选第一个就OK；
+------
+# 本文章已同步至GitHub仓库：<a href="Javasthttps://github.com/freestylefly/javaStudyudy">Javastudy</a>,期待您的加入:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/github.jpg" width=""/>
+
+# 本文章已同步至<a href="https://freestylefly.github.io/">苍何的个人博客</a>,可以直接在博客上留言哦:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+
+# 来我的微信公众号玩耍呗:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+
+# 扫码无套路关注我的CSDN博客:blush:
+<img src="http://pp8g2fyug.bkt.clouddn.com/CSDN.png" width=""/>

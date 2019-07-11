@@ -37,6 +37,10 @@
 
 ### 目录
 <!-- TOC -->
+
+        - [先简单自我介绍：](#先简单自我介绍)
+        - [项目简介](#项目简介)
+        - [目录](#目录)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
@@ -102,7 +106,7 @@
     - [Canal](#canal)
     - [Swagger2](#swagger2)
     - [SpringSocial](#springsocial)
-- [经验总结:no_mouth:](#经验总结no_mouth)
+- [兴趣爱好:no_mouth:](#兴趣爱好no_mouth)
 - [Java面试相关:musical_note:](#java面试相关musical_note)
 - [资料:christmas_tree:](#资料christmas_tree)
 - [闲谈:floppy_disk:](#闲谈floppy_disk)
@@ -147,6 +151,7 @@
 - [DBCP连接池和登录注册按例](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBCP连接池和登录注册按例.md)
 - [DBUtils工具类操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBUtils/DBUtils工具类操作数据库.md)
 - [JDBC操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/JDBC操作数据库基础/JDBC操作数据库.md)
+- [win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题](docs/Java与数据库交互技术/MySQL数据库/MySQL基础/win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题.md)
 
 ## Oracle数据库
 
@@ -389,9 +394,11 @@
 
 - 
 
-# 经验总结:no_mouth:
+# 兴趣爱好:no_mouth:
 
-- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
+- [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
 
 # Java面试相关:musical_note:
 

@@ -41,6 +41,7 @@
         - [先简单自我介绍：](#先简单自我介绍)
         - [项目简介](#项目简介)
         - [目录](#目录)
+- [学习资料:tokyo_tower:](#学习资料tokyo_tower)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
@@ -122,6 +123,8 @@
     - [个人博客](#个人博客)
 
 <!-- /TOC -->
+# 学习资料:tokyo_tower:
+- [学习资料.md](docs/学习资料(全).md)
 
 # Java语言核心:wedding:
 

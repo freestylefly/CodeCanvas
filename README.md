@@ -36,11 +36,6 @@
 
 
 ### 目录
-<!-- TOC -->
-
-        - [先简单自我介绍：](#先简单自我介绍)
-        - [项目简介](#项目简介)
-        - [目录](#目录)
 - [学习资料:tokyo_tower:](#学习资料tokyo_tower)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
@@ -108,6 +103,7 @@
     - [Swagger2](#swagger2)
     - [SpringSocial](#springsocial)
 - [兴趣爱好:no_mouth:](#兴趣爱好no_mouth)
+- [经验总结:sunny:](#经验总结sunny)
 - [Java面试相关:musical_note:](#java面试相关musical_note)
 - [资料:christmas_tree:](#资料christmas_tree)
 - [闲谈:floppy_disk:](#闲谈floppy_disk)
@@ -122,7 +118,6 @@
     - [CSDN博客](#csdn博客)
     - [个人博客](#个人博客)
 
-<!-- /TOC -->
 # 学习资料:tokyo_tower:
 - [学习资料.md](docs/学习资料(全).md)
 
@@ -402,6 +397,9 @@
 - [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
 - [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
 - [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+
+# 经验总结:sunny:
+- [java在过滤器中为http请求加请求头header.md](docs/经验总结/java在过滤器中为http请求加请求头header.md)
 
 # Java面试相关:musical_note:
 

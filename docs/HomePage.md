@@ -298,7 +298,10 @@
 
 - [使用序列化保存对象信息的时候出现中文乱码问题.md](./兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
 - [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
-- [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+- [2019-07-10-hexo在GitHub上搭建个人博客.md](./兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+
+# 经验总结:sunny:
+- [java在过滤器中为http请求加请求头header.md](./经验总结/java在过滤器中为http请求加请求头header.md)
 
 # Java面试相关:musical_note:
 

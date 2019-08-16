@@ -14,7 +14,7 @@
 <a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
 
 <p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/csdn.jpg" width=""/>
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">

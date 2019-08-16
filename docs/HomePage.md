@@ -14,11 +14,11 @@
 <a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
 
 <p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/csdn.jpg" width=""/>
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jp" width=""/>
 </p>
 
 # 学习资料:tokyo_tower:
@@ -351,23 +351,23 @@ MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且
 
 ## 联系我
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200px"/>
 </p>
 
 
 ## 公众号
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true" width="200px"/>
 </p>
 
 
 
 ## CSDN博客
 
-https://blog.csdn.net/qq_43270074
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/CSDN_qrcode.jpg" width="200px"/>
+</p>
 
-## 个人博客
-https://freestylefly.github.io/
 

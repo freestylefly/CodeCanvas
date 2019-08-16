@@ -11,14 +11,14 @@
   <a href="#个人博客"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-blog-red.svg" alt="投稿"></a>
 <h2 align="center">The more effort，the more lucky</h2>
 </p>
-<a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
+<a href="https://blog.csdn.net/qq_43270074"><h3 align="center">我的CSDN博客</h3></a>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/freestylefly/images/master/me/csdn.jpg" width=""/>
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jpg" width=""/>
 </p>
 
 ### 先简单自我介绍：
@@ -31,9 +31,9 @@
 ### 项目简介
 
 完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
-:thumbsup:为了更好的阅读体验，请访问<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
+:thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
 :gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
-
+:tokyo_tower:欢迎关注我的CSDN博客，第一时间收到文章更新： <a href="https://blog.csdn.net/qq_43270074">CSDN博客</a>
 
 ### 目录
 - [学习资料:tokyo_tower:](#学习资料tokyo_tower)
@@ -173,7 +173,7 @@
 
 ## Cookie和Session
 
-- [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java web/知识点/Cookie&Session)
+- [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java_web/知识点/Cookie&Session)
 
 ## Http协议和Tomcate服务器
 
@@ -181,11 +181,11 @@
 
 ## javaweb核心之Servlet
 
-- [在javaEE中外部的js文件如何和页面之间传递参数](docs/JavaWeb前后端交互技术基础/Java web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
+- [在javaEE中外部的js文件如何和页面之间传递参数](docs/JavaWeb前后端交互技术基础/Java_web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
 
 ## JSP
 
-- [jsp](docs/JavaWeb前后端交互技术基础/Java web/知识点/JSP)
+- [jsp](docs/JavaWeb前后端交互技术基础/Java_web/知识点/JSP)
 
 ## request和response
 
@@ -449,23 +449,22 @@ MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且
 
 ## 联系我
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200px"/>
 </p>
 
 
 ## 公众号
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true" width="200px"/>
 </p>
 
 
 
 ## CSDN博客
 
-https://blog.csdn.net/qq_43270074
-
-## 个人博客
-https://freestylefly.github.io/
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/CSDN_qrcode.jpg" width="200px"/>
+</p>
 

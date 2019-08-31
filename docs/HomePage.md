@@ -18,7 +18,7 @@
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
-<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jp" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jpg" width=""/>
 </p>
 
 # 学习资料:tokyo_tower:

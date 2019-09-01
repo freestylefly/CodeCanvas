@@ -242,7 +242,8 @@
 
 ## Redis
 
-- 
+- [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
+
 
 ## 高并发编程工具JUC
 
@@ -287,6 +288,7 @@
 ## SpringBoot
 
 - [springboot系列知识.md](docs/JavaEE框架/springboot/springboot系列知识.md)
+- [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
 ## SpringCloud微服务
 
@@ -465,6 +467,6 @@ MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且
 ## CSDN博客
 
 <p align="left">
-<img src="https://github.com/freestylefly/images/blob/master/me/CSDN_qrcode.jpg" width="200px"/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/CSDN_qrcode.jpg" width="200px"/>
 </p>
 

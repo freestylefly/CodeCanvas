@@ -1,25 +1,5 @@
-<h1 align="center">Java 菜鸟 = > 大神</h1>
-<p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5Eng.jpg" width=""/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/freestylefly/javaStudy"><img src="https://img.shields.io/badge/%E9%98%85%E8%AF%BB-read-blue.svg" alt="阅读"></a>
-  <a href="#联系我"><img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91-callme-orange.svg" alt="微信"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-canghe-lightgrey.svg" alt="公众号"></a>
-  <a href="https://github.com/freestylefly/javaStudy/issues"><img src="https://img.shields.io/badge/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88-Issurs-brightgreen.svg" alt="公众号"></a>
-  <a href="#个人博客"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-blog-red.svg" alt="投稿"></a>
-<h2 align="center">The more effort，the more lucky</h2>
-</p>
-<a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
-
-<p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
-</p>
-<a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
-</p>
+# 学习资料:tokyo_tower:
+- [学习资料.md](./学习资料(全).md)
 
 # Java语言核心:wedding:
 
@@ -49,6 +29,7 @@
 - [DBCP连接池和登录注册按例](./Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBCP连接池和登录注册按例.md)
 - [DBUtils工具类操作数据库](./Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBUtils/DBUtils工具类操作数据库.md)
 - [JDBC操作数据库](./Java与数据库交互技术/MySQL数据库/JDBC操作数据库/JDBC操作数据库基础/JDBC操作数据库.md)
+- [win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题](./Java与数据库交互技术/MySQL数据库/MySQL基础/win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题.md)
 
 ## Oracle数据库
 
@@ -140,7 +121,7 @@
 
 ## Redis
 
-- 
+- [springboot与缓存（整合redis）.md](./JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
 ## 高并发编程工具JUC
 
@@ -184,7 +165,8 @@
 
 ## SpringBoot
 
-- 
+- [springboot系列知识.md](./JavaEE框架/springboot/springboot系列知识.md)
+- [springboot与缓存（整合redis）.md](./JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
 ## SpringCloud微服务
 
@@ -252,11 +234,11 @@
 
 ## Kalka
 
-- 
+- [kafka介绍以及结合spring消费topic.md](./互联网架构新技术/kafka/kafka介绍以及结合spring消费topic.md)
 
 ## Docker
 
-- 
+- [Docker入门到精通.md](./互联网架构新技术/Docker/Docker入门到精通.md)
 
 ## Hadoop
 
@@ -290,9 +272,14 @@
 
 - 
 
-# 经验总结:no_mouth:
+# 兴趣爱好:no_mouth:
 
-- [使用序列化保存对象信息的时候出现中文乱码问题.md](./经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [使用序列化保存对象信息的时候出现中文乱码问题.md](./兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
+- [2019-07-10-hexo在GitHub上搭建个人博客.md](./兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+
+# 经验总结:sunny:
+- [java在过滤器中为http请求加请求头header.md](./经验总结/java在过滤器中为http请求加请求头header.md)
 
 # Java面试相关:musical_note:
 
@@ -342,23 +329,23 @@ MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且
 
 ## 联系我
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200px"/>
 </p>
 
 
 ## 公众号
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true" width="200px"/>
 </p>
 
 
 
 ## CSDN博客
 
-https://blog.csdn.net/qq_43270074
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/CSDN_qrcode.jpg" width="200px"/>
+</p>
 
-## 个人博客
-https://freestylefly.github.io/
 

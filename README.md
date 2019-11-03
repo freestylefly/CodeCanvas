@@ -11,14 +11,14 @@
   <a href="#个人博客"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-blog-red.svg" alt="投稿"></a>
 <h2 align="center">The more effort，the more lucky</h2>
 </p>
-<a href="https://blog.csdn.net/qq_43270074"><p><h3 align="center">我的CSDN博客</h3></p></a>
+<a href="https://blog.csdn.net/qq_43270074"><h3 align="center">我的CSDN博客</h3></a>
 
 <p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5lcT.png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/csdn2.jpg" width=""/>
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/myblog..png" width=""/>
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jpg" width=""/>
 </p>
 
 ### 先简单自我介绍：
@@ -31,12 +31,12 @@
 ### 项目简介
 
 完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
-:thumbsup:为了更好的阅读体验，请访问<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
+:thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
 :gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
-
+:tokyo_tower:欢迎关注我的CSDN博客，第一时间收到文章更新： <a href="https://blog.csdn.net/qq_43270074">CSDN博客</a>
 
 ### 目录
-<!-- TOC -->
+- [学习资料:tokyo_tower:](#学习资料tokyo_tower)
 - [Java语言核心:wedding:](#java语言核心wedding)
     - [Java核心语法](#java核心语法)
     - [java高级API](#java高级api)
@@ -102,7 +102,8 @@
     - [Canal](#canal)
     - [Swagger2](#swagger2)
     - [SpringSocial](#springsocial)
-- [经验总结:no_mouth:](#经验总结no_mouth)
+- [兴趣爱好:no_mouth:](#兴趣爱好no_mouth)
+- [经验总结:sunny:](#经验总结sunny)
 - [Java面试相关:musical_note:](#java面试相关musical_note)
 - [资料:christmas_tree:](#资料christmas_tree)
 - [闲谈:floppy_disk:](#闲谈floppy_disk)
@@ -117,7 +118,8 @@
     - [CSDN博客](#csdn博客)
     - [个人博客](#个人博客)
 
-<!-- /TOC -->
+# 学习资料:tokyo_tower:
+- [学习资料.md](docs/学习资料(全).md)
 
 # Java语言核心:wedding:
 
@@ -147,6 +149,7 @@
 - [DBCP连接池和登录注册按例](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBCP连接池和登录注册按例.md)
 - [DBUtils工具类操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBUtils/DBUtils工具类操作数据库.md)
 - [JDBC操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/JDBC操作数据库基础/JDBC操作数据库.md)
+- [win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题](docs/Java与数据库交互技术/MySQL数据库/MySQL基础/win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题.md)
 
 ## Oracle数据库
 
@@ -170,7 +173,7 @@
 
 ## Cookie和Session
 
-- [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java web/知识点/Cookie&Session)
+- [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java_web/知识点/Cookie&Session)
 
 ## Http协议和Tomcate服务器
 
@@ -178,11 +181,11 @@
 
 ## javaweb核心之Servlet
 
-- [在javaEE中外部的js文件如何和页面之间传递参数](docs/JavaWeb前后端交互技术基础/Java web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
+- [在javaEE中外部的js文件如何和页面之间传递参数](docs/JavaWeb前后端交互技术基础/Java_web/知识点/javaweb核心之Servlet/在javaEE中外部的js文件如何和页面之间传递参数.md)
 
 ## JSP
 
-- [jsp](docs/JavaWeb前后端交互技术基础/Java web/知识点/JSP)
+- [jsp](docs/JavaWeb前后端交互技术基础/Java_web/知识点/JSP)
 
 ## request和response
 
@@ -239,7 +242,8 @@
 
 ## Redis
 
-- 
+- [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
+
 
 ## 高并发编程工具JUC
 
@@ -283,7 +287,8 @@
 
 ## SpringBoot
 
-- 
+- [springboot系列知识.md](docs/JavaEE框架/springboot/springboot系列知识.md)
+- [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
 ## SpringCloud微服务
 
@@ -351,11 +356,11 @@
 
 ## Kalka
 
-- 
+- [kafka介绍以及结合spring消费topic.md](docs/互联网架构新技术/kafka/kafka介绍以及结合spring消费topic.md)
 
 ## Docker
 
-- 
+- [Docker入门到精通.md](docs/互联网架构新技术/Docker/Docker入门到精通.md)
 
 ## Hadoop
 
@@ -389,9 +394,14 @@
 
 - 
 
-# 经验总结:no_mouth:
+# 兴趣爱好:no_mouth:
 
-- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/经验总结/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
+- [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
+- [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+
+# 经验总结:sunny:
+- [java在过滤器中为http请求加请求头header.md](docs/经验总结/java在过滤器中为http请求加请求头header.md)
 
 # Java面试相关:musical_note:
 
@@ -441,23 +451,22 @@ MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且
 
 ## 联系我
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixin.jpg" width=""/>
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="200px"/>
 </p>
 
 
 ## 公众号
 
-<p align="center">
-<img src="http://pp8g2fyug.bkt.clouddn.com/weixingongzhonghao.jpg" width=""/>
+<p align="left">
+<img src="https://github.com/freestylefly/images/blob/master/me/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg?raw=true" width="200px"/>
 </p>
 
 
 
 ## CSDN博客
 
-https://blog.csdn.net/qq_43270074
-
-## 个人博客
-https://freestylefly.github.io/
+<p align="left">
+<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/CSDN_qrcode.jpg" width="200px"/>
+</p>
 

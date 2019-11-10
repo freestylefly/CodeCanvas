@@ -109,7 +109,9 @@
 
 ## Linux
 
-- 
+- [linux入门.pdf](./常用工具和环境/Linux/linux入门.pdf)
+- [Linux命令大全(修改版).chm](./常用工具和环境/Linux/Linux命令大全(修改版).chm)
+- [Linux操作系统.md](./常用工具和环境/Linux/Linux操作系统.md)
 
 ## SVN
 
@@ -117,7 +119,7 @@
 
 ## Maven
 
-- 
+- [Maven依赖管理.md](./常用工具和环境/Maven/Maven依赖管理.md)
 
 ## Redis
 

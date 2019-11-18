@@ -38,10 +38,9 @@
 ### 目录
 - [学习资料:tokyo_tower:](#学习资料tokyo_tower)
 - [Java语言核心:wedding:](#java语言核心wedding)
-    - [Java核心语法](#java核心语法)
+    - [Java核心知识总结（面试必问）](#Java核心知识总结（面试必问）)
     - [java高级API](#java高级api)
     - [java数据结构](#java数据结构)
-    - [java核心语法](#java核心语法)
     - [算法](#算法)
 - [Java与数据库交互技术:tokyo_tower:](#java与数据库交互技术tokyo_tower)
     - [MySQL数据库](#mysql数据库)
@@ -123,7 +122,8 @@
 
 # Java语言核心:wedding:
 
-## Java核心语法
+## Java核心知识总结（面试必问）
+- [Java核心知识总结（面试必问）.md](docs/Java_basic/java_basic_API/Java核心知识总结（面试必问）.md)
 
 ## java高级API
 
@@ -135,8 +135,7 @@
 ## java数据结构
 
 - [java数据结构](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
-## java核心语法
-- [java核心语法](docs/Java_basic/java_basic_API/Java中的IO流和反射.md)
+
 ## 算法
 - [N个人站圈报数算法问题.md](docs/Java_basic/java_basic_API//N个人站圈报数算法问题.md)
 

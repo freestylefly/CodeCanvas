@@ -3,7 +3,8 @@
 
 # Java语言核心:wedding:
 
-## Java核心语法
+## Java核心知识总结（面试必问）
+- [Java核心知识总结（面试必问）.md](./Java_basic/java_basic_API/Java核心知识总结（面试必问）.md)
 
 ## java高级API
 
@@ -15,8 +16,7 @@
 ## java数据结构
 
 - [java数据结构](./Java_basic/java_basic_API/Java中的IO流和反射.md)
-## java核心语法
-- [java核心语法](./Java_basic/java_basic_API/Java中的IO流和反射.md)
+
 ## 算法
 - [N个人站圈报数算法问题.md](./Java_basic/java_basic_API//N个人站圈报数算法问题.md)
 

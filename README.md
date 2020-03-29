@@ -67,6 +67,7 @@
     - [Redis](#redis)
     - [高并发编程工具JUC](#高并发编程工具juc)
     - [命令解析器Shell](#命令解析器shell)
+    - [分享一些常用的谷歌浏览器插件](#分享一些常用的谷歌浏览器插件)
 - [JavaEE框架:black_joker:](#javaee框架black_joker)
     - [hibernate](#hibernate)
     - [Mybatis](#mybatis)
@@ -209,6 +210,10 @@
 - [Ajax常用用法.md](docs/Java_Web前后端交互技术基础/Ajax/Ajax常用用法.md)
 
 #  常用工具和环境:station:
+
+## 谷歌浏览器插件
+
+- [分享一些常用的谷歌浏览器插件.md](docs/常用工具和环境/谷歌浏览器插件/分享一些常用的谷歌浏览器插件.md)
 
 ## eclipse
 
@@ -409,15 +414,13 @@
 - [JavaSE基础面试题（精简版）.md](docs/java面试相关/JavaSE基础面试题（精简版）.md)
 - [java基础面试题.md](docs/java面试相关/java基础面试题.md)
 - [华为招聘Java程序员笔试试卷（一）.md](docs/java面试相关/华为招聘Java程序员笔试试卷（一）.md)
+- [疫情之下我是如何大胆跳槽的.md](docs/java面试相关/疫情之下我是如何大胆跳槽的.md)
 
 # 资料:christmas_tree:
 
 - 
 
 # 闲谈:floppy_disk:
-
-- [又是一年，我还是我](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483799&idx=1&sn=0ee5a28e449dbff54b84b39069fc20d8&chksm=fd8fa188caf8289ec566b45c061970887a7a77bc98230c4fdde548f07a685c10c54178a43152&token=2015591107&lang=zh_CN#rd)
-- [念念不忘，必有反响！](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483812&idx=1&sn=b6a93e14e6b0393ef71fe211595241b9&chksm=fd8fa1bbcaf828ad43515886201fcbb72d9c52bf6766bea21eaac6359c7d7ed70126a31eb6db&token=2015591107&lang=zh_CN#rd)
 - [我的2018/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483794&idx=1&sn=6e3de4d312f7df711890e1bd1ed8a15c&chksm=fd8fa18dcaf8289b2ffb7abfc194db0ad9ab3b9a06b17877d6c8619bb1007c92de2d0b07d832&token=2015591107&lang=zh_CN#rd)
 
 # 待办:loop:

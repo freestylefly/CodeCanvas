@@ -281,7 +281,7 @@
 
 ## SpringMVC
 
-- [SpringMVC重温知识点.md](docs/JavaEE框架/SpringMVC/SpringMVC重温知识点.md)
+- [SpringMVC重温知识点.md](docs/JavaEE框架/springMVC/SpringMVC重温知识点.md)
 
 ## Struts2
 

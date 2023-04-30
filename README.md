@@ -1,6 +1,6 @@
-<h1 align="center">Java 菜鸟1 = > 大神</h1>
+<h1 align="center">Java 菜鸟 = > 大神</h1>
 <p align="center">
-<img src="https://s2.ax1x.com/2019/03/31/AD5Eng.jpg" width=""/>
+<img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/AD5Eng.jpg" width=""/>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 <a href="https://blog.csdn.net/qq_43270074"><h3 align="center">我的CSDN博客</h3></a>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/freestylefly/images/master/me/csdn2.jpg" width=""/>
+<img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/20230430142237.png"/>
 </p>
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
@@ -37,6 +37,7 @@
 
 ### 目录
 - [学习资料:tokyo\_tower:](#学习资料tokyo_tower)
+- [AIGC:airplane:](#aigcairplane)
 - [Java语言核心:wedding:](#java语言核心wedding)
   - [Java核心知识总结（面试必问）](#java核心知识总结面试必问)
   - [java高级API](#java高级api)
@@ -117,8 +118,17 @@
   - [公众号](#公众号)
   - [CSDN博客](#csdn博客)
 
+
 # 学习资料:tokyo_tower:
 - [学习资料.md](docs/学习资料(全).md)
+
+# AIGC:airplane:
+- [阿里推出的6个免费的 AI 神器是想让我失业吧.md](docs/AIGC/阿里推出的6个免费的AI神器是想让我失业吧_new.md)
+- [如何利用 AI 工具高效玩转工厂模式.md](docs/AIGC/如何利用AI工具高效玩转工厂模式_new.md)
+- [使用 ChatGPT 总是出现「Something went wrong」解决方案.md](docs/AIGC/使用ChatGPT总是掉线.md)
+- [idea安装github_copilot登录后状态无变化解决方案.md](docs/AIGC/idea安装github_copilot登录后状态无变化解决方案_new.md)
+- [phind——无需注册专为开发者而生的 AI 搜索引擎.md](docs/AIGC/phind——无需注册专为开发者而生的AI搜索引擎_new.md)
+
 
 # Java语言核心:wedding:
 

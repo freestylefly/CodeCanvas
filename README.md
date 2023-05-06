@@ -119,6 +119,7 @@
   - [CSDN博客](#csdn博客)
 
 
+
 # 学习资料:tokyo_tower:
 - [学习资料.md](docs/学习资料(全).md)
 
@@ -128,6 +129,8 @@
 - [使用 ChatGPT 总是出现「Something went wrong」解决方案.md](docs/AIGC/使用ChatGPT总是掉线.md)
 - [idea安装github_copilot登录后状态无变化解决方案.md](docs/AIGC/idea安装github_copilot登录后状态无变化解决方案_new.md)
 - [phind——无需注册专为开发者而生的 AI 搜索引擎.md](docs/AIGC/phind——无需注册专为开发者而生的AI搜索引擎_new.md)
+  
+- [发现一个Mac神仙截图工具（截长图、带阴影、贴图等）.md](docs/AIGC/发现一个Mac神仙截图工具（截长图、带阴影、贴图等）.md)
 
 
 # Java语言核心:wedding:

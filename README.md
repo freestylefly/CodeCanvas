@@ -16,21 +16,28 @@
 <p align="center">
 <img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/20230430142237.png"/>
 </p>
+<!-- 
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
 <p align="center">
 <img src="https://raw.githubusercontent.com/freestylefly/images/master/me/myBlog.jpg" width=""/>
 </p>
+-->
 
 ### 先简单自我介绍：
 
 我曾经跨过山河大海，也穿过人山人海，我曾经拥有者一切，转眼都飘散如烟........
-2017年，在重庆大山，晚上回来在卡车斗篷里，我们一起唱起了这首歌，究竟什么是平凡？那一刻，我想明白了，平凡不是每天的心心念念，而是知道自己该做什么
-2018年，在深圳的单人出租房里，同样的问自己，真正的平凡是，人走了，并没有留存下来的东西！
-故，此分享仓库产生了！
+
+2017年，在重庆大山，晚上回来在卡车斗篷里，我们一起唱起了这首歌，究竟什么是平凡？那一刻，我想明白了，平凡不是每天的心心念念，而是漫无目的的探寻。
+
+
+2018年，在深圳的单人出租房里，同样的问自己，何谓平凡，真正的平凡是，人走了，并没有留存下来的东西！
+
+故，此分享仓库产生了！这里开始于 java，却不止于 Java，这里是我创作的乐园，这里是我灵感的源泉，这里也是我成长的记录。
 
 ### 项目简介
 
 完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
+
 :thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
 :gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
 :tokyo_tower:欢迎关注我的CSDN博客，第一时间收到文章更新： <a href="https://blog.csdn.net/qq_43270074">CSDN博客</a>
@@ -39,6 +46,7 @@
 - [学习资料:tokyo\_tower:](#学习资料tokyo_tower)
 - [AIGC:airplane:](#aigcairplane)
 - [Java语言核心:wedding:](#java语言核心wedding)
+  - [计算机网络](#计算机网络)
   - [Java核心知识总结（面试必问）](#java核心知识总结面试必问)
   - [java高级API](#java高级api)
   - [java数据结构](#java数据结构)
@@ -46,6 +54,8 @@
 - [Java与数据库交互技术:tokyo\_tower:](#java与数据库交互技术tokyo_tower)
   - [MySQL数据库](#mysql数据库)
   - [Oracle数据库](#oracle数据库)
+- [一起学产品](#一起学产品)
+- [一起学管理](#一起学管理)
 - [JavaWeb前后端交互技术基础:airplane:](#javaweb前后端交互技术基础airplane)
   - [HTML基础与CSS](#html基础与css)
   - [JavaScript与jQuery](#javascript与jquery)
@@ -89,20 +99,10 @@
   - [JVM内存模型、参数调优](#jvm内存模型参数调优)
   - [java开发包JUC](#java开发包juc)
 - [互联网架构新技术:sunny:](#互联网架构新技术sunny)
-  - [Zookeeper](#zookeeper)
-  - [Elasticsearch](#elasticsearch)
-  - [Logstash](#logstash)
-  - [kibana](#kibana)
+  - [SpringCloud](#springcloud)
   - [Kalka](#kalka)
   - [Docker](#docker)
-  - [Hadoop](#hadoop)
-  - [Hive](#hive)
-  - [MapReduce](#mapreduce)
-  - [Node.js、vue.js](#nodejsvuejs)
-  - [RabbitMQ](#rabbitmq)
-  - [Canal](#canal)
-  - [Swagger2](#swagger2)
-  - [SpringSocial](#springsocial)
+  - [嵌入式软件开发](#嵌入式软件开发)
 - [兴趣爱好:no\_mouth:](#兴趣爱好no_mouth)
 - [经验总结:sunny:](#经验总结sunny)
 - [Java面试相关:musical\_note:](#java面试相关musical_note)
@@ -131,9 +131,14 @@
 - [phind——无需注册专为开发者而生的 AI 搜索引擎.md](docs/AIGC/phind——无需注册专为开发者而生的AI搜索引擎_new.md)
   
 - [发现一个Mac神仙截图工具（截长图、带阴影、贴图等）.md](docs/AIGC/发现一个Mac神仙截图工具（截长图、带阴影、贴图等）.md)
+- [new_bing使用问题.md](docs/AIGC/new_bing使用问题.md)
 
 
 # Java语言核心:wedding:
+
+## 计算机网络
+
+- [计算机网络基础概述.md](docs/Java_basic/计算机网络/计算机网络基础概述.md)
 
 ## Java核心知识总结（面试必问）
 - [Java核心知识总结（面试必问）.md](docs/Java_basic/java_basic_API/Java核心知识总结（面试必问）.md)
@@ -168,6 +173,24 @@
 - [将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）](docs/Java与数据库交互技术/Oracle数据库/Oracle的安装/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库（超详细步骤）.md)
 - [云服务器安装oracle修改IP地址监听器报错问题](docs/Java与数据库交互技术/Oracle数据库/Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
 - [oracle知识点总结](docs/Java与数据库交互技术/Oracle数据库/Oracle重点知识点/oracle知识点总结.md)
+
+# 一起学产品
+
+- [互联网大厂人人必知的产品经理知识.md](docs/一起学产品/互联网大厂人人必知的产品经理知识.md)
+- [PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md](docs/一起学产品/PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md)
+
+# 一起学管理
+
+- [好的leader定义.md](docs/一起学管理/好的leader定义.md)
+
+
+- [如何做好团队管理.md](docs/一起学管理/如何做好团队管理.md)
+
+- [实习生培养计划.md](docs/一起学管理/实习生培养计划.md)
+
+
+- [我和我的团队使用Codeup后的体验.md](docs/一起学管理/我和我的团队使用Codeup后的体验.md)
+
 
 # JavaWeb前后端交互技术基础:airplane:
 
@@ -356,21 +379,9 @@
 
 # 互联网架构新技术:sunny:
 
-## Zookeeper
+## SpringCloud
 
-- 
-
-## Elasticsearch
-
-- 
-
-## Logstash
-
-- 
-
-## kibana
-
-- 
+- [微服务之SpringCloud.md](docs/互联网架构新技术/springcloud/微服务之SpringCloud.md)
 
 ## Kalka
 
@@ -380,37 +391,13 @@
 
 - [Docker入门到精通.md](docs/互联网架构新技术/Docker/Docker入门到精通.md)
 
-## Hadoop
+## 嵌入式软件开发
 
-- 
+- [边缘计算与云边协同.md](docs/互联网架构新技术/边缘计算与云边协同.md)
+- [C语言入门（1）——特点及关键字.md](docs/互联网架构新技术/C语言入门（1）——特点及关键字.md)
+- [C语言入门（2）——数据类型、运算符、类型转换、控制语句.md](docs/互联网架构新技术/C语言入门（2）——数据类型、运算符、类型转换、控制语句.md)
+- [MQTT-轻量级的物联网消息传输协议.md](docs/互联网架构新技术/MQTT-轻量级的物联网消息传输协议.md)
 
-## Hive
-
-- 
-
-## MapReduce
-
-- 
-
-## Node.js、vue.js
-
-- 
-
-## RabbitMQ
-
-- 
-
-## Canal
-
-- 
-
-## Swagger2
-
-- 
-
-## SpringSocial
-
-- 
 
 # 兴趣爱好:no_mouth:
 
@@ -419,7 +406,10 @@
 - [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
 
 # 经验总结:sunny:
+
 - [java在过滤器中为http请求加请求头header.md](docs/经验总结/java在过滤器中为http请求加请求头header.md)
+- [进阿里了——分享一波进大厂经验.md](docs/经验总结/进阿里了——分享一波进大厂经验.md)
+- [如何写好软件任务书.md](docs/经验总结/如何写好软件任务书.md)
 
 # Java面试相关:musical_note:
 

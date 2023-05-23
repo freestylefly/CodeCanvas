@@ -51,6 +51,7 @@
   - [2.3、java高级API](#23java高级api)
   - [2.4、java数据结构](#24java数据结构)
   - [2.5、算法](#25算法)
+  - [2.6、设计模式](#26设计模式)
 - [3、Java与数据库交互技术 🌐](#3java与数据库交互技术-)
   - [3.1、MySQL数据库](#31mysql数据库)
   - [3.2、Oracle数据库](#32oracle数据库)
@@ -124,6 +125,15 @@
 
 # 3、Java语言核心 🌲
 
+- [JVM垃圾回收GC.md](docs/Java_basic/JVM垃圾回收GC.md)
+- [JVM运行时数据区.md](docs/Java_basic/JVM运行时数据区.md)
+- [JVM执行引擎、对象实例化、String相关知识.md](docs/Java_basic/JVM执行引擎、对象实例化、String相关知识.md)
+- [JVM概述和类加载子系统.md](docs/Java_basic/JVM概述和类加载子系统.md)
+- [java多线程以及并发相关知识.md](docs/Java_basic/java多线程以及并发相关知识.md)
+- [java基础相关知识.md](docs/Java_basic/java基础相关知识.md)
+- [HashMap和ConcurrentHashmap.md](docs/Java_basic/HashMap和ConcurrentHashmap.md)
+- [编程入门.md](docs/Java_basic/编程入门.md)
+
 ## 2.1、计算机网络
 
 - [计算机网络基础概述.md](docs/Java_basic/计算机网络/计算机网络基础概述.md)
@@ -145,6 +155,10 @@
 
 ## 2.5、算法
 - [N个人站圈报数算法问题.md](docs/Java_basic/java_basic_API//N个人站圈报数算法问题.md)
+  
+## 2.6、设计模式
+
+- [设计模式应用之策略模式.md](docs/Java_basic/设计模式/设计模式应用之策略模式.md)
 
 # 3、Java与数据库交互技术 🌐
 
@@ -156,6 +170,7 @@
 - [DBUtils工具类操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/DBUtils/DBUtils工具类操作数据库.md)
 - [JDBC操作数据库](docs/Java与数据库交互技术/MySQL数据库/JDBC操作数据库/JDBC操作数据库基础/JDBC操作数据库.md)
 - [win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题](docs/Java与数据库交互技术/MySQL数据库/MySQL基础/win10环境下MySql（8.0.16最新版本）安装过程以及遇到的问题.md)
+- [超全的MySQL核心原理，从底层剖析MySQL.md](docs/Java与数据库交互技术/MySQL数据库/超全的MySQL核心原理，从底层剖析MySQL.md)
 
 ## 3.2、Oracle数据库
 
@@ -260,6 +275,7 @@
 ## 5.9、Redis
 
 - [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
+- [Redis缓存界的神话.md](docs/常用工具和环境/Redis/Redis缓存界的神话.md)
 
 # 6、JavaEE框架 🚢
 
@@ -280,6 +296,7 @@
 
 - [Spring入门与常用配置.md](docs/JavaEE框架/Spring/01.Spring入门与常用配置.md)
 - [注解IOC&AOP.md](docs/JavaEE框架/Spring/注解IOC&AOP.md)
+- [最熟悉的陌生人Spring框架.md](docs/JavaEE框架/Spring/最熟悉的陌生人Spring框架.md)
 
 ## 6.4、SpringMVC
 

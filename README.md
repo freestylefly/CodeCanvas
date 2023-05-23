@@ -1,4 +1,4 @@
-<h1 align="center">Java 菜鸟 = > 大神</h1>
+<h1 align="center">职场菜鸟 = > 大神</h1>
 <p align="center">
 <img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/AD5Eng.jpg" width=""/>
 </p>
@@ -36,92 +36,15 @@
 
 ### 项目简介
 
-完全以一个初学者外行人的阶段学习，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记
+完全以一个初学者外行人的阶段学习 Java，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记，越往后记录了工作学习中的问题、感想。
 
-:thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">java学习手册</a>
+:thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">学习手册</a>
 :gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
 :tokyo_tower:欢迎关注我的CSDN博客，第一时间收到文章更新： <a href="https://blog.csdn.net/qq_43270074">CSDN博客</a>
 
-### 目录
-- [学习资料:tokyo\_tower:](#学习资料tokyo_tower)
-- [AIGC:airplane:](#aigcairplane)
-- [Java语言核心:wedding:](#java语言核心wedding)
-  - [计算机网络](#计算机网络)
-  - [Java核心知识总结（面试必问）](#java核心知识总结面试必问)
-  - [java高级API](#java高级api)
-  - [java数据结构](#java数据结构)
-  - [算法](#算法)
-- [Java与数据库交互技术:tokyo\_tower:](#java与数据库交互技术tokyo_tower)
-  - [MySQL数据库](#mysql数据库)
-  - [Oracle数据库](#oracle数据库)
-- [一起学产品](#一起学产品)
-- [一起学管理](#一起学管理)
-- [JavaWeb前后端交互技术基础:airplane:](#javaweb前后端交互技术基础airplane)
-  - [HTML基础与CSS](#html基础与css)
-  - [JavaScript与jQuery](#javascript与jquery)
-  - [Cookie和Session](#cookie和session)
-  - [Http协议和Tomcate服务器](#http协议和tomcate服务器)
-  - [javaweb核心之Servlet](#javaweb核心之servlet)
-  - [JSP](#jsp)
-  - [request和response](#request和response)
-  - [过滤器和监听器](#过滤器和监听器)
-  - [easyUI](#easyui)
-  - [UEditor](#ueditor)
-  - [ajax](#ajax)
-- [常用工具和环境:station:](#常用工具和环境station)
-  - [谷歌浏览器插件](#谷歌浏览器插件)
-  - [eclipse](#eclipse)
-  - [Git和GitHub](#git和github)
-  - [IDEA](#idea)
-  - [Linux](#linux)
-  - [SVN](#svn)
-  - [Maven](#maven)
-  - [Redis](#redis)
-  - [高并发编程工具JUC](#高并发编程工具juc)
-  - [命令解析器Shell](#命令解析器shell)
-- [JavaEE框架:black\_joker:](#javaee框架black_joker)
-  - [hibernate](#hibernate)
-  - [Mybatis](#mybatis)
-  - [Spring](#spring)
-  - [SpringMVC](#springmvc)
-  - [Struts2](#struts2)
-  - [SpringBoot](#springboot)
-  - [SpringCloud微服务](#springcloud微服务)
-  - [Web安全框架SpringSecurity](#web安全框架springsecurity)
-  - [分布式Session给管理SpringSession](#分布式session给管理springsession)
-- [JavaEE高级课程:dart:](#javaee高级课程dart)
-  - [远程调用技术WebService](#远程调用技术webservice)
-  - [Mycat实现Mysql的分布式、分库分表、读写分离](#mycat实现mysql的分布式分库分表读写分离)
-  - [Nginx反向代理、负载均衡、动静分离](#nginx反向代理负载均衡动静分离)
-  - [全文索引数据库Solr](#全文索引数据库solr)
-  - [分布式构建框架Dubbo](#分布式构建框架dubbo)
-  - [Tomcat性能优化](#tomcat性能优化)
-  - [JVM内存模型、参数调优](#jvm内存模型参数调优)
-  - [java开发包JUC](#java开发包juc)
-- [互联网架构新技术:sunny:](#互联网架构新技术sunny)
-  - [SpringCloud](#springcloud)
-  - [Kalka](#kalka)
-  - [Docker](#docker)
-  - [嵌入式软件开发](#嵌入式软件开发)
-- [兴趣爱好:no\_mouth:](#兴趣爱好no_mouth)
-- [经验总结:sunny:](#经验总结sunny)
-- [Java面试相关:musical\_note:](#java面试相关musical_note)
-- [资料:christmas\_tree:](#资料christmas_tree)
-- [闲谈:floppy\_disk:](#闲谈floppy_disk)
-- [待办:loop:](#待办loop)
-- [说明:battery:](#说明battery)
-  - [介绍](#介绍)
-  - [关于转载](#关于转载)
-  - [如何对该开源文档进行贡献](#如何对该开源文档进行贡献)
-  - [为什么要做这个开源文档？](#为什么要做这个开源文档)
-  - [联系我](#联系我)
-  - [公众号](#公众号)
-  - [CSDN博客](#csdn博客)
 
-
-
-# 学习资料:tokyo_tower:
-- [学习资料.md](docs/学习资料(全).md)
+# Java 学习资料:tokyo_tower:
+- [学习资料.md](docs/学习成长/学习资料(全).md)
 
 # AIGC:airplane:
 - [阿里推出的6个免费的 AI 神器是想让我失业吧.md](docs/AIGC/阿里推出的6个免费的AI神器是想让我失业吧_new.md)
@@ -174,22 +97,6 @@
 - [云服务器安装oracle修改IP地址监听器报错问题](docs/Java与数据库交互技术/Oracle数据库/Oracle的安装/云服务器安装oracle修改IP地址监听器报错问题.md)
 - [oracle知识点总结](docs/Java与数据库交互技术/Oracle数据库/Oracle重点知识点/oracle知识点总结.md)
 
-# 一起学产品
-
-- [互联网大厂人人必知的产品经理知识.md](docs/一起学产品/互联网大厂人人必知的产品经理知识.md)
-- [PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md](docs/一起学产品/PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md)
-
-# 一起学管理
-
-- [好的leader定义.md](docs/一起学管理/好的leader定义.md)
-
-
-- [如何做好团队管理.md](docs/一起学管理/如何做好团队管理.md)
-
-- [实习生培养计划.md](docs/一起学管理/实习生培养计划.md)
-
-
-- [我和我的团队使用Codeup后的体验.md](docs/一起学管理/我和我的团队使用Codeup后的体验.md)
 
 
 # JavaWeb前后端交互技术基础:airplane:
@@ -209,8 +116,6 @@
 ## Cookie和Session
 
 - [Cookie&Session](docs/JavaWeb前后端交互技术基础/Java_web/知识点/Cookie&Session)
-
-## Http协议和Tomcate服务器
 
 
 
@@ -285,15 +190,6 @@
 
 - [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
-
-## 高并发编程工具JUC
-
-- 
-
-## 命令解析器Shell
-
-- 
-
 # JavaEE框架:black_joker:
 
 ## hibernate
@@ -331,51 +227,8 @@
 - [springboot系列知识.md](docs/JavaEE框架/springboot/springboot系列知识.md)
 - [springboot与缓存（整合redis）.md](docs/JavaEE框架/springboot/springboot与缓存（整合redis）.md)
 
-## SpringCloud微服务
 
-- 
 
-## Web安全框架SpringSecurity
-
-- 
-
-## 分布式Session给管理SpringSession
-
-- 
-
-# JavaEE高级课程:dart:
-
-## 远程调用技术WebService
-
-- 
-
-## Mycat实现Mysql的分布式、分库分表、读写分离
-
-- 
-
-## Nginx反向代理、负载均衡、动静分离
-
-- 
-
-## 全文索引数据库Solr
-
-- 
-
-## 分布式构建框架Dubbo
-
-- 
-
-## Tomcat性能优化
-
-- 
-
-## JVM内存模型、参数调优
-
-- 
-
-## java开发包JUC
-
-- 
 
 # 互联网架构新技术:sunny:
 
@@ -391,12 +244,33 @@
 
 - [Docker入门到精通.md](docs/互联网架构新技术/Docker/Docker入门到精通.md)
 
-## 嵌入式软件开发
 
-- [边缘计算与云边协同.md](docs/互联网架构新技术/边缘计算与云边协同.md)
-- [C语言入门（1）——特点及关键字.md](docs/互联网架构新技术/C语言入门（1）——特点及关键字.md)
-- [C语言入门（2）——数据类型、运算符、类型转换、控制语句.md](docs/互联网架构新技术/C语言入门（2）——数据类型、运算符、类型转换、控制语句.md)
-- [MQTT-轻量级的物联网消息传输协议.md](docs/互联网架构新技术/MQTT-轻量级的物联网消息传输协议.md)
+# 一起学产品:dart:
+
+- [互联网大厂人人必知的产品经理知识.md](docs/一起学产品/互联网大厂人人必知的产品经理知识.md)
+- [PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md](docs/一起学产品/PRD-审批流BPM（结合企微审批引擎和结合flowable方案选择）.md)
+
+# 一起学管理:black_joker:
+
+- [好的leader定义.md](docs/一起学管理/好的leader定义.md)
+
+
+- [如何做好团队管理.md](docs/一起学管理/如何做好团队管理.md)
+
+- [实习生培养计划.md](docs/一起学管理/实习生培养计划.md)
+
+
+- [我和我的团队使用Codeup后的体验.md](docs/一起学管理/我和我的团队使用Codeup后的体验.md)
+
+# 嵌入式软件开发:dart:
+
+- [边缘计算与云边协同.md](docs/物联网和嵌入式开发/边缘计算与云边协同.md)
+  
+- [C语言入门（1）——特点及关键字.md](docs/物联网和嵌入式开发/C语言入门（1）——特点及关键字.md)
+  
+- [C语言入门（2）——数据类型、运算符、类型转换、控制语句.md](docs/物联网和嵌入式开发/C语言入门（2）——数据类型、运算符、类型转换、控制语句.md)
+  
+- [MQTT-轻量级的物联网消息传输协议.md](docs/物联网和嵌入式开发/MQTT-轻量级的物联网消息传输协议.md)
 
 
 # 兴趣爱好:no_mouth:
@@ -418,12 +292,22 @@
 - [华为招聘Java程序员笔试试卷（一）.md](docs/java面试相关/华为招聘Java程序员笔试试卷（一）.md)
 - [疫情之下我是如何大胆跳槽的.md](docs/java面试相关/疫情之下我是如何大胆跳槽的.md)
 
-# 资料:christmas_tree:
 
-- 
 
-# 闲谈:floppy_disk:
-- [我的2018/将oracle11安装到虚拟机并在本机进行远程操控oracle数据库](https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA==&mid=2247483794&idx=1&sn=6e3de4d312f7df711890e1bd1ed8a15c&chksm=fd8fa18dcaf8289b2ffb7abfc194db0ad9ab3b9a06b17877d6c8619bb1007c92de2d0b07d832&token=2015591107&lang=zh_CN#rd)
+
+# 学习成长:floppy_disk:
+
+- [进阿里了——分享一波进大厂经验.md](docs/学习成长/进阿里了——分享一波进大厂经验.md)
+  
+- [如何写好软件任务书.md](docs/学习成长/如何写好软件任务书.md)
+  
+# 撤离一线归途指南:christmas_tree:
+
+- [从深圳到长沙，从“蜗居”到“安家”！.md](docs/撤离一线归途指南/从深圳到长沙，从“蜗居”到“安家”！.md)
+  
+- [在长沙想找好工作？看完这一篇就够了.md](docs/撤离一线归途指南/在长沙想找好工作？看完这一篇就够了_new.md)
+
+
 
 # 待办:loop:
 
@@ -441,6 +325,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/)
 
 MarkDown编写可以用Vscode，里面有插件可自动生成目录结构，且可以在GitHub显示
+
 ## 关于转载
 
 如果你需要转载本仓库的一些文章到自己的博客的话，记得注明原文地址就可以了。

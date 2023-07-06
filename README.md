@@ -1,4 +1,4 @@
-<h1 align="center">职场菜鸟 = > 大神</h1>
+<h1 align="center">迷茫 = > 成长</h1>
 <p align="center">
 <img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/AD5Eng.jpg" width=""/>
 </p>
@@ -345,6 +345,7 @@
 - [如何做好团队管理.md](docs/一起学管理/如何做好团队管理.md)
 - [实习生培养计划.md](docs/一起学管理/实习生培养计划.md)
 - [我和我的团队使用Codeup后的体验.md](docs/一起学管理/我和我的团队使用Codeup后的体验.md)
+- [管理一年，领悟一生：迷茫、洞见与成长.md](docs/一起学管理/管理一年，领悟一生：迷茫、洞见与成长.md)
 
 # 10、嵌入式软件开发 ⛳
 

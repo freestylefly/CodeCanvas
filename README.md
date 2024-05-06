@@ -1,4 +1,4 @@
-<h1 align="center">迷茫 = > 成长</h1>
+<h1 align="center">不止于 Java</h1>
 <p align="center">
 <img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/AD5Eng.jpg" width=""/>
 </p>
@@ -14,7 +14,7 @@
 <a href="https://blog.csdn.net/qq_43270074"><h3 align="center">我的CSDN博客</h3></a>
 
 <p align="center">
-<img src="https://canghe666.oss-cn-chengdu.aliyuncs.com/canghe/20230430142237.png"/>
+<img src="https://cdn.tobebetterjavaer.com/stutymore/20240506225120.png"/>
 </p>
 <!-- 
 <a href="https://freestylefly.github.io/"><p><h3 align="center">个人博客</h3></p></a>
@@ -25,18 +25,22 @@
 
 ### 先简单自我介绍：
 
-我曾经跨过山河大海，也穿过人山人海，我曾经拥有者一切，转眼都飘散如烟........
+<!-- 我曾经跨过山河大海，也穿过人山人海，我曾经拥有者一切，转眼都飘散如烟........
 
 2017年，在重庆大山，晚上回来在卡车斗篷里，我们一起唱起了这首歌，究竟什么是平凡？那一刻，我想明白了，平凡不是每天的心心念念，而是漫无目的的探寻。
 
 
-2018年，在深圳的单人出租房里，同样的问自己，何谓平凡，真正的平凡是，人走了，并没有留存下来的东西！
+2018年，在深圳的单人出租房里，同样的问自己，何谓平凡，真正的平凡是，人走了，并没有留存下来的东西！ -->
+
+你好，我是苍何。一个土木转码的程序员，混迹过小厂和大厂，目前是团队技术 leader。
+
+一直以来，想记录自己跨界转行的成长经历，也记录自己的学习笔记。
 
 故，此分享仓库产生了！这里开始于 java，却不止于 Java，这里是我编程学习园地，这里是我灵感的源泉，这里也是我成长的记录。
 
 ### 项目简介
 
-完全以一个初学者外行人的阶段学习 Java，学习编程，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记，越往后记录了工作学习中的问题、感想。
+完全以一个初学者外行人的阶段学习 Java，学习编程，按照我目录的顺序学习是比较好的，项目中有很多的资源，很多都是自己的学习笔记，其中很多记录了工作学习中的问题、感想。
 
 :thumbsup:为了更好的阅读体验，请访问：<a href="https://freestylefly.github.io/javaStudy/">学习手册</a>
 :gift_heart:所有文章资源均已同步个人博客，欢迎留言： <a href="https://freestylefly.github.io//">个人博客</a>
@@ -240,6 +244,7 @@
 
 - [分布式版本控制工具——Git.md](docs/常用工具和环境/Git&GitHub/分布式版本控制工具——Git.md)
 - [关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md](docs/常用工具和环境/Git&GitHub/关于GitHub的一些经验总结（包括README文件的编写目录的自动生成）.md)
+- [3分钟同步GitHub到Gitee.md](docs/常用工具和环境/Git&GitHub/3分钟同步GitHub到Gitee.md)
 
 ## 5.3、IDEA
 
@@ -332,6 +337,7 @@
 - [使用序列化保存对象信息的时候出现中文乱码问题.md](docs/兴趣爱好/使用序列化保存对象信息的时候出现中文乱码问题.md)
 - [微信聊天机器人.md](docs/兴趣爱好/微信聊天机器人.md)
 - [2019-07-10-hexo在GitHub上搭建个人博客.md](docs/兴趣爱好/2019-07-10-hexo在GitHub上搭建个人博客.md)
+- [微信聊天记录做成了纪念册.md](docs/兴趣爱好/三周年惊喜：我用微信聊天记录做成了纪念册，她的反应竟然是....md)
 
 
 

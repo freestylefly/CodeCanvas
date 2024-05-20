@@ -311,6 +311,7 @@
 
 - [微服务之SpringCloud.md](docs/互联网架构新技术/springcloud/微服务之SpringCloud.md)
 - [微服务中的鉴权怎么做.md](docs/互联网架构新技术/springcloud/微服务中的鉴权怎么做？.md)
+- [微服务如何做好监控.md](docs/互联网架构新技术/springcloud/微服务如何做好监控.md)
 
 ## 7.2、Kalka
 

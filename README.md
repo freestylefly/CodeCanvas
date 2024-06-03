@@ -313,6 +313,7 @@
 - [微服务中的鉴权怎么做.md](docs/互联网架构新技术/springcloud/微服务中的鉴权怎么做？.md)
 - [微服务如何做好监控.md](docs/互联网架构新技术/springcloud/微服务如何做好监控.md)
 - [微服务网关Gateway（上）.md](docs/互联网架构新技术/springcloud/微服务网关Gateway（上）.md)
+- [微服务网关Gateway（下）.md](docs/互联网架构新技术/springcloud/微服务网关Gateway（下）.md)
 
 ## 7.2、Kalka
 
@@ -358,6 +359,7 @@
 - [我的数据库被勒索了.md](docs/经验总结/震惊，我的数据库被勒索了！.md)
 - [如何做好技术架构选型.md](docs/经验总结/如何做好技术架构选型.md)
 
+- [如何部署上线项目.md](docs/经验总结/如何部署上线项目.md)
 
 
 # 待办 ✅

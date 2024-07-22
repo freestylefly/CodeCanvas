@@ -36,3 +36,4 @@ logs
 log
 /target/*
 .DS_Store
+.obsidian/*
